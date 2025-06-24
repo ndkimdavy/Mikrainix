@@ -1,0 +1,350 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "19082ed6-8f17-4d62-ab42-418ea03b55ea")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 44.45 50.8)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22cc9e10-2568-472f-808f-2c6ffeb9eeb0")
+		(property "Sheetname" "U_SPLink"
+			(at 44.45 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPLink.kicad_sch"
+			(at 44.45 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 107.95)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38b34e4b-4d56-45b8-9855-7d357f4a3de7")
+		(property "Sheetname" "U_CAMERA_MPU"
+			(at 76.2 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAMERA_MPU.kicad_sch"
+			(at 76.2 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 107.95)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5151b18b-eb85-414d-9c0c-decd729bd0e4")
+		(property "Sheetname" "U_IO_MPU"
+			(at 44.45 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO_MPU.kicad_sch"
+			(at 44.45 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 69.85)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6512bd73-ee62-49d7-a8ea-3d25bda13aaa")
+		(property "Sheetname" "U_PMIC_MPU"
+			(at 44.45 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMIC_MPU.kicad_sch"
+			(at 44.45 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 88.9)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79eb48f2-f1f2-4d27-8218-46d0d06ecf27")
+		(property "Sheetname" "U_SDMMC_MPU"
+			(at 76.2 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDMMC_MPU.kicad_sch"
+			(at 76.2 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 75.565 50.8)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96cdb093-7935-4848-9034-d3914504e5e0")
+		(property "Sheetname" "U_USB_MPU"
+			(at 75.565 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_MPU.kicad_sch"
+			(at 75.565 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 88.9)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c762df5e-364b-4815-b7f2-01531d609bd3")
+		(property "Sheetname" "U_PWR_MPU"
+			(at 44.45 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR_MPU.kicad_sch"
+			(at 44.45 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 69.85)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc4bb586-093e-4889-9fc5-6f59a8938ffc")
+		(property "Sheetname" "U_LPDDR4_MPU"
+			(at 76.2 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LPDDR4_MPU.kicad_sch"
+			(at 76.2 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

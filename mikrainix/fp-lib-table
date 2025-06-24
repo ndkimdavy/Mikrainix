@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mikrainix-C")(type "KiCad")(uri "${KIPRJMOD}/../symbols/C")(options "")(descr ""))
+  (lib (name "mikrainix-R")(type "KiCad")(uri "${KIPRJMOD}/../symbols/R")(options "")(descr ""))
+  (lib (name "mikrainix-STUSB4500QTR")(type "KiCad")(uri "${KIPRJMOD}/../symbols/STUSB4500QTR")(options "")(descr ""))
+  (lib (name "mikrainix-STM32L052C8U6")(type "KiCad")(uri "${KIPRJMOD}/../symbols/STM32L052C8U6")(options "")(descr ""))
+  (lib (name "mikrainix-2345986-1")(type "KiCad")(uri "${KIPRJMOD}/../symbols/2345986-1")(options "")(descr ""))
+  (lib (name "mikrainix-ST1S40IPUR")(type "KiCad")(uri "${KIPRJMOD}/../symbols/ST1S40IPUR")(options "")(descr ""))
+  (lib (name "mikrainix-ECMF02-2AMX6")(type "KiCad")(uri "${KIPRJMOD}/../symbols/ECMF02-2AMX6")(options "")(descr ""))
+  (lib (name "mikrainix-L7983PUR")(type "KiCad")(uri "${KIPRJMOD}/../symbols/L7983PUR")(options "")(descr ""))
+  (lib (name "mikrainix-STPMIC25APQR")(type "KiCad")(uri "${KIPRJMOD}/../symbols/STPMIC25APQR")(options "")(descr ""))
+  (lib (name "mikrainix-STM32MP257FAI3")(type "KiCad")(uri "${KIPRJMOD}/../symbols/STM32MP257FAI3")(options "")(descr ""))
+)
