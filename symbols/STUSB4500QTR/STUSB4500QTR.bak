@@ -464,7 +464,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 35.56 12.7 270)
 				(length 7.62)
 				(name "VREG_1V2"
@@ -482,7 +482,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 38.1 12.7 270)
 				(length 7.62)
 				(name "VREG_2V7"

@@ -158,7 +158,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 6.35 -22.86 90)
 				(length 7.62)
 				(name "EPAD"
