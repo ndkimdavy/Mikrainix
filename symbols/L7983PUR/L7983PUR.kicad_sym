@@ -153,7 +153,8 @@
 					(type solid)
 				)
 				(fill
-					(type background)
+					(type color)
+					(color 32 32 32 1)
 				)
 			)
 			(pin power_in line

@@ -582,17 +582,6 @@
 			)
 		)
 		(symbol "2345986-1_1_0"
-			(rectangle
-				(start -12.7 5.08)
-				(end 12.7 -33.02)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin power_in line
 				(at -3.81 -38.1 90)
 				(length 5.08)
@@ -663,6 +652,20 @@
 							(size 1.016 1.016)
 						)
 					)
+				)
+			)
+		)
+		(symbol "2345986-1_1_1"
+			(rectangle
+				(start -12.7 5.08)
+				(end 12.7 -33.02)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 32 32 32 1)
 				)
 			)
 		)
