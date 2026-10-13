@@ -1,6 +1,7 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "mikrainix-POWER_SYM") (type "KiCad") (uri "${KIPRJMOD}/../symbols/POWER_SYM/POWER_SYM.kicad_sym") (options "") (descr ""))
+	(lib (name "mikrainix-TESTPOINT_SYM") (type "KiCad") (uri "${KIPRJMOD}/../symbols/TESTPOINT_SYM/TESTPOINT_SYM.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-STUSB4500QTR") (type "KiCad") (uri "${KIPRJMOD}/../symbols/STUSB4500QTR/STUSB4500QTR.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-STM32L052C8U6") (type "KiCad") (uri "${KIPRJMOD}/../symbols/STM32L052C8U6/STM32L052C8U6.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-2345986-1") (type "KiCad") (uri "${KIPRJMOD}/../symbols/2345986-1/2345986-1.kicad_sym") (options "") (descr ""))
@@ -10,4 +11,9 @@
 	(lib (name "mikrainix-ESDA25W") (type "KiCad") (uri "${KIPRJMOD}/../symbols/ESDA25W/ESDA25W.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-L6983N50QTR") (type "KiCad") (uri "${KIPRJMOD}/../symbols/L6983N50QTR/L6983N50QTR.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-RV1106G3") (type "KiCad") (uri "${KIPRJMOD}/../symbols/RV1106G3/RV1106G3.kicad_sym") (options "") (descr ""))
+	(lib (name "mikrainix-TPS65262-1RHBT") (type "KiCad") (uri "${KIPRJMOD}/../symbols/TPS65262-1RHBT/TPS65262-1RHBT.kicad_sym") (options "") (descr ""))
+	(lib (name "mikrainix-ESP32-C6-MINI-1") (type "KiCad") (uri "${KIPRJMOD}/../symbols/ESP32-C6-MINI-1/ESP32-C6-MINI-1.kicad_sym") (options "") (descr ""))
+	(lib (name "mikrainix-TPS62821DLCR") (type "KiCad") (uri "${KIPRJMOD}/../symbols/TPS62821DLCR/TPS62821DLCR.kicad_sym") (options "") (descr ""))
+	(lib (name "mikrainix-R_SHUNT") (type "KiCad") (uri "${KIPRJMOD}/../symbols/R_SHUNT/R_SHUNT.kicad_sym") (options "") (descr ""))
+	(lib (name "mikrainix-MAX4899EETE-T") (type "KiCad") (uri "${KIPRJMOD}/../symbols/MAX4899EETE-T/MAX4899EETE-T.kicad_sym") (options "") (descr ""))
 )

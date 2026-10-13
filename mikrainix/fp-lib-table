@@ -9,4 +9,8 @@
 	(lib (name "mikrainix-ESDA25W") (type "KiCad") (uri "${KIPRJMOD}/../symbols/ESDA25W") (options "") (descr ""))
 	(lib (name "mikrainix-L6983N50QTR") (type "KiCad") (uri "${KIPRJMOD}/../symbols/L6983N50QTR") (options "") (descr ""))
 	(lib (name "mikrainix-RV1106G3") (type "KiCad") (uri "${KIPRJMOD}/../symbols/RV1106G3") (options "") (descr ""))
+	(lib (name "mikrainix-TPS65262-1RHBT") (type "KiCad") (uri "${KIPRJMOD}/../symbols/TPS65262-1RHBT") (options "") (descr ""))
+	(lib (name "mikrainix-ESP32-C6-MINI-1") (type "KiCad") (uri "${KIPRJMOD}/../symbols/ESP32-C6-MINI-1") (options "") (descr ""))
+	(lib (name "mikrainix-TPS62821DLCR") (type "KiCad") (uri "${KIPRJMOD}/../symbols/TPS62821DLCR") (options "") (descr ""))
+	(lib (name "mikrainix-MAX4899EETE-T") (type "KiCad") (uri "${KIPRJMOD}/../symbols/MAX4899EETE-T") (options "") (descr ""))
 )

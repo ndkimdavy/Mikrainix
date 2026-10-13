@@ -115,7 +115,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -17.78 180)
+				(at 68.58 -22.86 180)
 				(length 5.08)
 				(name "DVDD_1"
 					(effects
@@ -151,7 +151,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -27.94 0)
+				(at -17.78 -12.7 0)
 				(length 5.08)
 				(name "RTC_AVDD3V3"
 					(effects
@@ -169,7 +169,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -12.7 0)
+				(at -17.78 -25.4 0)
 				(length 5.08)
 				(name "SARADC_USB_AVDD1V8"
 					(effects
@@ -187,7 +187,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -30.48 0)
+				(at -17.78 -15.24 0)
 				(length 5.08)
 				(name "USB_AVDD3V3"
 					(effects
@@ -205,7 +205,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -15.24 0)
+				(at -17.78 -27.94 0)
 				(length 5.08)
 				(name "CODEC_AVDD1V8"
 					(effects
@@ -259,7 +259,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -38.1 180)
+				(at 68.58 -43.18 180)
 				(length 5.08)
 				(name "DDR_VDDQ_1"
 					(effects
@@ -277,7 +277,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -40.64 180)
+				(at 68.58 -45.72 180)
 				(length 5.08)
 				(name "DDR_VDDQ_2"
 					(effects
@@ -295,7 +295,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -20.32 180)
+				(at 68.58 -25.4 180)
 				(length 5.08)
 				(name "DVDD_2"
 					(effects
@@ -313,7 +313,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -48.26 180)
+				(at 68.58 -53.34 180)
 				(length 5.08)
 				(name "DRAM_ZQ"
 					(effects
@@ -331,7 +331,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -22.86 0)
+				(at -17.78 -35.56 0)
 				(length 5.08)
 				(name "DDR_PLL_AVDD1V8"
 					(effects
@@ -349,7 +349,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -22.86 180)
+				(at 68.58 -27.94 180)
 				(length 5.08)
 				(name "DVDD_3"
 					(effects
@@ -367,7 +367,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -25.4 180)
+				(at 68.58 -30.48 180)
 				(length 5.08)
 				(name "DVDD_4"
 					(effects
@@ -385,7 +385,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -43.18 180)
+				(at 68.58 -48.26 180)
 				(length 5.08)
 				(name "DDR_VDDQ_3"
 					(effects
@@ -421,7 +421,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -33.02 0)
+				(at -17.78 -17.78 0)
 				(length 5.08)
 				(name "PMU_VCC3V3"
 					(effects
@@ -439,7 +439,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -12.7 180)
+				(at 68.58 -17.78 180)
 				(length 5.08)
 				(name "PMU_DVDD0V9"
 					(effects
@@ -457,7 +457,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -17.78 0)
+				(at -17.78 -30.48 0)
 				(length 5.08)
 				(name "OSC_AVDD1V8/PLL_AVDD1V8"
 					(effects
@@ -475,7 +475,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -15.24 180)
+				(at 68.58 -20.32 180)
 				(length 5.08)
 				(name "OSC_PLL_DVDD"
 					(effects
@@ -511,7 +511,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -27.94 180)
+				(at 68.58 -33.02 180)
 				(length 5.08)
 				(name "DVDD_5"
 					(effects
@@ -547,7 +547,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -20.32 0)
+				(at -17.78 -33.02 0)
 				(length 5.08)
 				(name "OTP_AVDD1V8/ETH_AVDD1V8/TSADC_AVDD1V8"
 					(effects
@@ -565,7 +565,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -35.56 0)
+				(at -17.78 -20.32 0)
 				(length 5.08)
 				(name "ETH_AVDD3V3"
 					(effects
@@ -583,7 +583,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -30.48 180)
+				(at 68.58 -35.56 180)
 				(length 5.08)
 				(name "DVDD_6"
 					(effects
@@ -619,7 +619,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -53.34 180)
+				(at 68.58 -12.7 180)
 				(length 5.08)
 				(name "CPU_DVDD"
 					(effects
@@ -637,7 +637,7 @@
 				)
 			)
 			(pin power_in line
-				(at 68.58 -33.02 180)
+				(at 68.58 -38.1 180)
 				(length 5.08)
 				(name "DVDD_7"
 					(effects
@@ -1292,7 +1292,7 @@
 			)
 		)
 		(symbol "RV1106G3_6_1"
-			(unit_name "SERIAL_CONTROL_IO")
+			(unit_name "GPIO1_AB")
 			(rectangle
 				(start -25.4 -7.62)
 				(end 76.2 -38.1)
@@ -1469,7 +1469,7 @@
 			)
 		)
 		(symbol "RV1106G3_7_1"
-			(unit_name "DISPLAY_SDIO_IO")
+			(unit_name "GPIO2_AB")
 			(rectangle
 				(start -38.1 -7.62)
 				(end 88.9 -40.64)
@@ -1664,7 +1664,7 @@
 			)
 		)
 		(symbol "RV1106G3_8_1"
-			(unit_name "DISPLAY_SERIAL_IO")
+			(unit_name "GPIO1_CD")
 			(rectangle
 				(start -38.1 -7.62)
 				(end 88.9 -45.72)

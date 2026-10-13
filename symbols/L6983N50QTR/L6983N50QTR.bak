@@ -108,12 +108,12 @@
 				)
 				(fill
 					(type color)
-					(color 192 192 192 1)
+					(color 32 32 32 1)
 				)
 			)
 			(pin power_in line
-				(at 5.08 -12.7 0)
-				(length 7.62)
+				(at 7.62 -12.7 0)
+				(length 5.08)
 				(name "VIN"
 					(effects
 						(font
@@ -130,8 +130,8 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -22.86 0)
-				(length 7.62)
+				(at 7.62 -22.86 0)
+				(length 5.08)
 				(name "VINLDO"
 					(effects
 						(font
@@ -148,8 +148,8 @@
 				)
 			)
 			(pin power_in line
-				(at 24.13 -48.26 90)
-				(length 7.62)
+				(at 24.13 -45.72 90)
+				(length 5.08)
 				(name "AGND"
 					(effects
 						(font
@@ -166,8 +166,8 @@
 				)
 			)
 			(pin input line
-				(at 5.08 -20.32 0)
-				(length 7.62)
+				(at 7.62 -20.32 0)
+				(length 5.08)
 				(name "EN/CLKIN"
 					(effects
 						(font
@@ -184,8 +184,8 @@
 				)
 			)
 			(pin open_collector line
-				(at 58.42 -25.4 180)
-				(length 7.62)
+				(at 55.88 -25.4 180)
+				(length 5.08)
 				(name "PGOOD"
 					(effects
 						(font
@@ -202,8 +202,8 @@
 				)
 			)
 			(pin power_in line
-				(at 58.42 -30.48 180)
-				(length 7.62)
+				(at 55.88 -30.48 180)
+				(length 5.08)
 				(name "VBIAS"
 					(effects
 						(font
@@ -220,8 +220,8 @@
 				)
 			)
 			(pin input line
-				(at 58.42 -35.56 180)
-				(length 7.62)
+				(at 55.88 -35.56 180)
+				(length 5.08)
 				(name "FB/VOUT"
 					(effects
 						(font
@@ -238,8 +238,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -30.48 0)
-				(length 7.62)
+				(at 7.62 -30.48 0)
+				(length 5.08)
 				(name "FSW"
 					(effects
 						(font
@@ -256,8 +256,8 @@
 				)
 			)
 			(pin power_out line
-				(at 5.08 -27.94 0)
-				(length 7.62)
+				(at 7.62 -27.94 0)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -274,8 +274,8 @@
 				)
 			)
 			(pin power_in line
-				(at 26.67 -48.26 90)
-				(length 7.62)
+				(at 26.67 -45.72 90)
+				(length 5.08)
 				(name "AGND"
 					(effects
 						(font
@@ -292,8 +292,8 @@
 				)
 			)
 			(pin passive line
-				(at 58.42 -20.32 180)
-				(length 7.62)
+				(at 55.88 -20.32 180)
+				(length 5.08)
 				(name "BOOT"
 					(effects
 						(font
@@ -310,8 +310,8 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -15.24 0)
-				(length 7.62)
+				(at 7.62 -15.24 0)
+				(length 5.08)
 				(name "VIN"
 					(effects
 						(font
@@ -328,8 +328,8 @@
 				)
 			)
 			(pin power_in line
-				(at 36.83 -48.26 90)
-				(length 7.62)
+				(at 36.83 -45.72 90)
+				(length 5.08)
 				(name "PGND"
 					(effects
 						(font
@@ -346,8 +346,8 @@
 				)
 			)
 			(pin power_out line
-				(at 58.42 -12.7 180)
-				(length 7.62)
+				(at 55.88 -12.7 180)
+				(length 5.08)
 				(name "SW"
 					(effects
 						(font
@@ -364,8 +364,8 @@
 				)
 			)
 			(pin power_out line
-				(at 58.42 -15.24 180)
-				(length 7.62)
+				(at 55.88 -15.24 180)
+				(length 5.08)
 				(name "SW"
 					(effects
 						(font
@@ -382,8 +382,8 @@
 				)
 			)
 			(pin power_in line
-				(at 39.37 -48.26 90)
-				(length 7.62)
+				(at 39.37 -45.72 90)
+				(length 5.08)
 				(name "PGND"
 					(effects
 						(font
@@ -400,8 +400,8 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -48.26 90)
-				(length 7.62)
+				(at 31.75 -45.72 90)
+				(length 5.08)
 				(name "EPAD"
 					(effects
 						(font

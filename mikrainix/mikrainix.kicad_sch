@@ -6,8 +6,54 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 44.45 50.8)
-		(size 25.4 12.7)
+		(at 101.6 76.2)
+		(size 50.8 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "07411c31-c8b2-4e89-a376-931551fbdc42")
+		(property "Sheetname" "U_MPU-USB-Wifi"
+			(at 101.6 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPU-USB-Wifi.kicad_sch"
+			(at 101.6 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 50.8)
+		(size 50.8 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +68,7 @@
 		)
 		(uuid "22cc9e10-2568-472f-808f-2c6ffeb9eeb0")
 		(property "Sheetname" "U_SPLink"
-			(at 44.45 50.0884 0)
+			(at 38.1 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "SPLink.kicad_sch"
-			(at 44.45 64.0846 0)
+			(at 38.1 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47,6 +93,98 @@
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 50.8)
+		(size 50.8 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "56d5c331-fd56-45f3-b054-d477268a927d")
+		(property "Sheetname" "U_MPU-PowerSupply"
+			(at 101.6 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPU-PowerSupply.kicad_sch"
+			(at 101.6 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 76.2)
+		(size 50.8 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a833726d-e6a4-4dfb-afe7-f82d945434d0")
+		(property "Sheetname" "U_MPU-Clock-Reset-Boot-Gpio"
+			(at 38.1 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPU-Clock-Reset-Boot-Gpio.kicad_sch"
+			(at 38.1 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "4")
 				)
 			)
 		)

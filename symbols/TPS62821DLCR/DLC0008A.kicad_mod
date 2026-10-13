@@ -1,0 +1,220 @@
+(footprint "DLC0008A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "TPS62821DLCR ")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eeb6d24f-687f-4da6-a359-a6b0506e70e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DLC0008A"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c83ed2a-0f01-4e8c-bbdb-53644738a2bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b225d20a-253e-4a59-a3ed-ffb26eb711e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "373cfd2f-adb7-4394-9b96-61d66379d815")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.8 -1.2)
+		(end 0.8 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b936ea2b-0937-4a19-8bea-96d4d055157a")
+	)
+	(fp_line
+		(start -0.8 1.2)
+		(end 0.8 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec8182de-d2c4-4787-b39d-6e6751f3c737")
+	)
+	(fp_circle
+		(center -1.3 -1.1)
+		(end -1.2 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8ea63125-609b-4593-b0b3-25f9e783cef3")
+	)
+	(fp_line
+		(start -0.799998 -1.05)
+		(end 0.799998 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "603005f8-45c0-49b8-b243-2433fad0c334")
+	)
+	(fp_line
+		(start -0.799998 1.05)
+		(end -0.799998 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4554375d-35a3-4aad-b2d8-2e3d6bf2d2ed")
+	)
+	(fp_line
+		(start -0.799998 1.05)
+		(end 0.799998 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b369235a-1c44-4b0e-96a2-aa83da8a02c8")
+	)
+	(fp_line
+		(start 0.799998 1.05)
+		(end 0.799998 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "916d7d14-2077-47e9-be03-dfb95dae0c34")
+	)
+	(fp_circle
+		(center -1.3 -1.1)
+		(end -1.2 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3bf042a1-84fd-4a04-907a-8bdded1d2ca9")
+	)
+	(fp_circle
+		(center -0.525 -0.725)
+		(end -0.400002 -0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f4db1990-4d26-4c56-8b71-fbc55ea19a69")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "310ecc08-6427-4ea0-afcf-5a81a2c44bbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 -0.750001)
+		(size 0.549999 0.249999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b19806d3-d1a6-4239-a118-dd1ca1597590")
+	)
+	(pad "2" smd rect
+		(at -0.675 -0.250002)
+		(size 0.549999 0.249999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4fc8b4ea-e080-4e44-aef6-5afbb70e2ef8")
+	)
+	(pad "3" smd rect
+		(at -0.675 0.25)
+		(size 0.549999 0.249999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d84fc5e6-ee82-46fa-bc6f-0b084eea3b0c")
+	)
+	(pad "4" smd rect
+		(at -0.675 0.749998)
+		(size 0.549999 0.249999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ba0a5956-3ac3-4abf-8554-f0e0e3075bd3")
+	)
+	(pad "5" smd rect
+		(at 0.675 0.749998)
+		(size 0.549999 0.249999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "874c8343-c018-4e92-87d5-bce4655b1a05")
+	)
+	(pad "6" smd rect
+		(at 0.675 0.25)
+		(size 0.549999 0.249999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c6e0ef75-6f78-4347-9baf-ef32ca4b5d32")
+	)
+	(pad "7" smd rect
+		(at 0.675 -0.250002)
+		(size 0.549999 0.249999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "454bd9ec-7d8f-4f28-a43b-b996feb66da1")
+	)
+	(pad "8" smd rect
+		(at 0.675 -0.750001)
+		(size 0.549999 0.249999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e03dfcc-30c3-4124-99c3-ae116a931b6c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../symbols/TPS62821DLCR/DLC0008A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
