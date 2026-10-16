@@ -13652,7 +13652,6 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 262.89 49.53 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13662,7 +13661,7 @@
 		(dnp no)
 		(uuid "2087fed0-c871-4b1d-8828-9ce26f14cb79")
 		(property "Reference" "R4"
-			(at 260.35 48.2599 0)
+			(at 265.43 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13673,7 +13672,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 260.35 50.7999 0)
+			(at 265.43 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13684,7 +13683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.668 49.53 90)
+			(at 261.112 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13894,7 +13893,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 254 49.53 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13904,7 +13902,7 @@
 		(dnp no)
 		(uuid "2120419f-5325-48f7-bcac-723b8b970959")
 		(property "Reference" "C6"
-			(at 250.19 48.2599 0)
+			(at 257.81 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13915,7 +13913,7 @@
 			)
 		)
 		(property "Value" "1µ"
-			(at 250.19 50.7999 0)
+			(at 257.81 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13926,7 +13924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 253.0348 53.34 0)
+			(at 254.9652 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17969,6 +17967,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 279.4 49.53 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17978,7 +17977,7 @@
 		(dnp no)
 		(uuid "6f612214-795d-4783-bc9c-063444f96699")
 		(property "Reference" "R6"
-			(at 276.86 50.8001 0)
+			(at 281.94 50.8001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17989,7 +17988,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 276.86 48.2601 0)
+			(at 281.94 48.2601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18000,7 +17999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 277.622 49.53 90)
+			(at 281.178 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22080,8 +22079,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 271.78 49.53 0)
-		(mirror x)
+		(at 271.78 49.53 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22091,7 +22089,7 @@
 		(dnp no)
 		(uuid "bc44ed00-1a5b-4bef-b359-78bbd1d604a2")
 		(property "Reference" "R5"
-			(at 269.24 48.2599 0)
+			(at 274.32 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22102,7 +22100,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 269.24 50.7999 0)
+			(at 274.32 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22113,7 +22111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.002 49.53 90)
+			(at 273.558 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25290,7 +25288,6 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 262.89 36.83 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25300,7 +25297,7 @@
 		(dnp no)
 		(uuid "f0d9a025-4522-4775-8ab6-231cc1ff8cd0")
 		(property "Reference" "R1"
-			(at 260.35 35.5599 0)
+			(at 265.43 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25311,7 +25308,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 260.35 38.0999 0)
+			(at 265.43 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25322,7 +25319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.668 36.83 90)
+			(at 261.112 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
