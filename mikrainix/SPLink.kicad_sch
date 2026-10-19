@@ -2306,7 +2306,7 @@
 					)
 				)
 			)
-			(property "Description" "2345986-1"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -13072,7 +13072,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1PS10SB82"
+		(property "Value" "BAT54JFILM"
 			(at 251.46 38.4174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13094,7 +13094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat54.pdf"
 			(at 254 36.83 0)
 			(hide yes)
 			(show_name no)

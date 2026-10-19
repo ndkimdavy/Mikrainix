@@ -53,7 +53,7 @@
 				)
 			)
 		)
-		(property "Description" "2345986-1"
+		(property "Description" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

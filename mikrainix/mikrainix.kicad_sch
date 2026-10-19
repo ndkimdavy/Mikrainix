@@ -21,7 +21,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "07411c31-c8b2-4e89-a376-931551fbdc42")
-		(property "Sheetname" "U_MPU-USB-Wifi"
+		(property "Sheetname" "U_MPU-USB-Wifi-Ethernet"
 			(at 101.6 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32,7 +32,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MPU-USB-Wifi.kicad_sch"
+		(property "Sheetfile" "MPU-USB-Wifi-Ethernet.kicad_sch"
 			(at 101.6 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93,6 +93,52 @@
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 100.33)
+		(size 50.8 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2463f957-0426-430a-966c-a5f215841251")
+		(property "Sheetname" "U_MPU-Camera-Audio"
+			(at 38.1 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPU-Camera-Audio.kicad_sch"
+			(at 38.1 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea"
+					(page "6")
 				)
 			)
 		)
