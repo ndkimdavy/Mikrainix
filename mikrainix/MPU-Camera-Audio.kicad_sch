@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "MPU-Camera & Audio")
-		(date "2026-10-20")
+		(date "2026-10-21")
+		(rev "v0.1")
 		(comment 1 "Project repository: github.com/ndkimdavy/Mikrainix")
 		(comment 2 "Designed by: Kim Davy NDAYONGEJE")
 	)
@@ -5004,7 +5005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12de601d-8629-4f4a-8d57-f052812e77e6")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0169"
 			(at 21.59 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5059,12 +5060,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "27bae765-8441-4f82-bf0c-d3e401f0eb81")
+			(uuid "b019564b-9baa-4e9b-a828-1137cf3b04ae")
 		)
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0163")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -5151,13 +5152,13 @@
 			(uuid "8447af52-7e4b-4e24-a6b9-d2aa0b19dc99")
 		)
 		(pin "6"
-			(uuid "54353036-be00-4551-b37f-e867e0abac44")
+			(uuid "bdd3429b-5dbc-46b1-ac9e-ada3f7a43810")
 		)
 		(pin "45"
 			(uuid "2ef2c371-2da7-4aa3-9fe6-030d428bf907")
 		)
 		(pin "9"
-			(uuid "88e214f1-b338-499e-af5c-5ca18f98f1db")
+			(uuid "8540d1e2-5063-4fa0-9ef9-47cea2a6b4ee")
 		)
 		(pin "111"
 			(uuid "99ec116e-78da-4e99-836d-3e8375ff2c3a")
@@ -5175,7 +5176,7 @@
 			(uuid "63b6227e-8cd0-48bc-a730-6ef4a8282e00")
 		)
 		(pin "4"
-			(uuid "118db1bd-7352-4cf0-923e-865292efc89f")
+			(uuid "10938119-0e77-4f8e-a42c-18d2fc066d83")
 		)
 		(pin "101"
 			(uuid "3b625f67-dc2a-4bc6-85f5-d56866af108c")
@@ -5190,7 +5191,7 @@
 			(uuid "5d7d8815-d86f-492d-93e2-c1e2412afd9d")
 		)
 		(pin "119"
-			(uuid "5e9ee9d8-6b97-4306-a1b8-c017bf10a8a8")
+			(uuid "4524f2c3-3470-4844-8c3f-9709e5118a64")
 		)
 		(pin "37"
 			(uuid "9925c60a-6d9c-4fc4-a028-a97ebf114c32")
@@ -5265,7 +5266,7 @@
 			(uuid "2649d19b-faed-4133-a9fa-69618ad581d8")
 		)
 		(pin "127"
-			(uuid "a7fe246f-5c8c-427a-8e41-5c7bff2a82b9")
+			(uuid "fded88ac-a094-4630-9d51-89a4ce678c99")
 		)
 		(pin "129"
 			(uuid "89084f60-97e7-4156-b2b2-3e303f382dfb")
@@ -5304,7 +5305,7 @@
 			(uuid "da67d504-18e9-4eb8-bc90-cccb2bea04eb")
 		)
 		(pin "124"
-			(uuid "ef3e80ea-0046-4ea4-aec7-df110ced8d02")
+			(uuid "d0f09f4d-5dfd-4404-9a12-c29c8e4a574b")
 		)
 		(pin "81"
 			(uuid "9a447d6f-8f8c-4c28-91a7-77c46792580b")
@@ -5313,7 +5314,7 @@
 			(uuid "2ac8b9a5-7620-450a-95de-e89da9acce72")
 		)
 		(pin "3"
-			(uuid "a5867b5f-53bb-4849-a284-9c378fed726a")
+			(uuid "1c531e0d-e1dd-452e-875b-1e3ec25d04ae")
 		)
 		(pin "74"
 			(uuid "a6d7ed55-f018-432d-b1de-9a070887c0fa")
@@ -5343,7 +5344,7 @@
 			(uuid "8e478a0d-ffc6-40ad-a2cf-3e0664fb8191")
 		)
 		(pin "8"
-			(uuid "468fd902-5a2e-4d4c-8ff4-e5a6273c0472")
+			(uuid "8fb88793-b6c0-4444-b338-770c982ec028")
 		)
 		(pin "26"
 			(uuid "e39bec3b-cb2a-4be7-8280-cc7ec04cb8a7")
@@ -5352,7 +5353,7 @@
 			(uuid "d0c8dcc2-1ebf-493c-a162-b60b4437104c")
 		)
 		(pin "7"
-			(uuid "99e74530-fc1e-4872-8021-ccb8b4652154")
+			(uuid "a4c05702-403d-4ef2-98b9-4a8c1b7a9f08")
 		)
 		(pin "63"
 			(uuid "464bc0d4-10e1-4460-b851-5b21088e8b41")
@@ -5391,10 +5392,10 @@
 			(uuid "e70af4bc-b55b-4115-8681-a350b0ed1dd7")
 		)
 		(pin "5"
-			(uuid "cf6a859b-49b2-4585-b149-eb266422d263")
+			(uuid "72c2eaea-07ed-459b-8b39-7948cc28e471")
 		)
 		(pin "117"
-			(uuid "133fa7e6-639c-4814-8ac9-472ffe6aea93")
+			(uuid "77165245-3470-499a-899d-2b1a260cd17c")
 		)
 		(pin "69"
 			(uuid "20889c91-6182-4bce-b11b-c6ba85c091c2")
@@ -5409,7 +5410,7 @@
 			(uuid "984f2eed-55ce-40ee-8bae-fae6ae4ad08c")
 		)
 		(pin "122"
-			(uuid "4f0305f0-5523-41f4-98b2-b0106792fba2")
+			(uuid "6a8cf839-3a72-40d0-a4ad-233a414bd323")
 		)
 		(pin "100"
 			(uuid "314fe9a9-c510-4ea9-9a9d-fc4ebde59115")
@@ -5418,7 +5419,7 @@
 			(uuid "32b5df44-2940-4e1a-972d-6968629c6d3f")
 		)
 		(pin "128"
-			(uuid "251ba99b-4729-470a-8398-5d1eb4a3bfe6")
+			(uuid "157af0c6-f19c-4e7f-b2cc-ce07c8ed8a55")
 		)
 		(pin "99"
 			(uuid "717e89c6-d005-4f81-be41-a5ad8d9dea67")
@@ -5436,7 +5437,7 @@
 			(uuid "675a68fa-b669-427e-8e9b-7f39cf08e832")
 		)
 		(pin "120"
-			(uuid "a7cc0623-435a-407e-beba-5dda02a65538")
+			(uuid "98cc810e-1601-4e34-83f9-61349c1b0066")
 		)
 		(pin "29"
 			(uuid "e029e508-d0e0-4060-877e-3e0d9dc45475")
@@ -5454,7 +5455,7 @@
 			(uuid "ce1becd5-fc0e-4173-9e89-dd9d7a638f80")
 		)
 		(pin "121"
-			(uuid "3aab9d59-e27a-4723-b1d5-931073e25360")
+			(uuid "f4c0b95c-6199-452e-8365-bb4b3d758547")
 		)
 		(pin "82"
 			(uuid "d37a82df-5514-4986-b1b2-eca277c4fd2d")
@@ -5463,7 +5464,7 @@
 			(uuid "3b49dd80-2175-4efc-a9a4-8a2ac9ef9032")
 		)
 		(pin "118"
-			(uuid "9b753fcc-6572-444f-9b98-ad82152972f7")
+			(uuid "ac3c19ac-3e05-4f73-9081-068ff8015bd0")
 		)
 		(pin "71"
 			(uuid "38438227-bd02-4648-b54a-fdd60df814d5")
@@ -5475,13 +5476,13 @@
 			(uuid "c6b290ad-ce69-4d34-ae6d-04d1326c9468")
 		)
 		(pin "123"
-			(uuid "9e6940c3-c288-4de7-a7cb-57841a9223fa")
+			(uuid "7a1d77e2-8387-4acb-bc29-ebd9200ed2d4")
 		)
 		(pin "125"
-			(uuid "73d1f73d-ce59-4631-bbf8-9f5494200e94")
+			(uuid "94602898-3872-4e46-810e-953dfc65fb61")
 		)
 		(pin "2"
-			(uuid "a8b651f7-0c6e-46f2-81e0-b3427fbd5c78")
+			(uuid "8a5ea0bf-4b67-4192-b6af-63abbb764dcf")
 		)
 		(pin "51"
 			(uuid "b14819a6-d57f-498c-9d3c-67911603c7ec")
@@ -5511,7 +5512,7 @@
 			(uuid "9743bf20-a4a6-438b-9875-3f735aaae55f")
 		)
 		(pin "126"
-			(uuid "cf81af29-4efd-42ea-b41b-70497eab9787")
+			(uuid "e1122c5f-fde2-4440-b4d9-d2d8ee4fe057")
 		)
 		(pin "13"
 			(uuid "5e5f8541-c346-4966-a135-a09a827e78aa")
@@ -5599,10 +5600,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "32beb274-c9a4-4776-afce-a6de4b9e101a")
+			(uuid "eda197be-a1d4-41ab-a072-0023b96a3070")
 		)
 		(pin "1"
-			(uuid "df75c423-0905-473b-8ce8-5832bd914201")
+			(uuid "d03ff488-2adb-4f0c-90e4-5311ef99cb6b")
 		)
 		(instances
 			(project "mikrainix"
@@ -5625,7 +5626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a5aa681-975f-49c9-9b65-97c116984116")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0168"
 			(at 153.67 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5680,12 +5681,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "37ec1e62-fa10-439b-9c0c-9c27460102e7")
+			(uuid "642bbc11-3cdc-416a-9c57-9ad8645e55f1")
 		)
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0162")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -5758,10 +5759,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ebea733-96b5-42e1-a485-6cf12c22761f")
+			(uuid "d5ce6630-d044-443c-a58e-b95353629471")
 		)
 		(pin "2"
-			(uuid "14128e62-03ea-4cdf-ab3a-781991c58f9d")
+			(uuid "150c9f39-5b1f-4eed-9c37-6b36a8fddfb7")
 		)
 		(instances
 			(project "mikrainix"
@@ -5839,64 +5840,64 @@
 			)
 		)
 		(pin "9"
-			(uuid "a1b24312-023e-46cb-8cd8-2999e7d669bd")
+			(uuid "c4ae5eac-02c3-4812-8be7-28a4bb2af681")
 		)
 		(pin "19"
-			(uuid "76d40abe-eacb-405a-94c1-57481e612196")
+			(uuid "4e6b15de-288c-4ce2-bc97-42ab3546b8d5")
 		)
 		(pin "18"
-			(uuid "7e727c54-e27e-4eb6-bfdb-0e3013f4fc8a")
+			(uuid "23bb0ca4-9d22-45b3-929a-bc1b5f4048dd")
 		)
 		(pin "2"
-			(uuid "26524f88-1354-4bf6-ad89-e7b50c8781a7")
+			(uuid "e02eea23-cba0-405f-8f70-b914649a39a9")
 		)
 		(pin "7"
-			(uuid "da17f3ea-8bc3-46cd-8556-f9c4f04db32b")
+			(uuid "dabe6f4a-e072-4ac3-8fa2-7032d5ea82ab")
 		)
 		(pin "8"
-			(uuid "8c57a040-b5e5-49bf-9347-8c7be6c0d762")
+			(uuid "70ff52c1-76c2-482c-8698-95cab6e1869e")
 		)
 		(pin "20"
-			(uuid "8c279c90-4ed0-4bf1-b4df-a098acefd77b")
+			(uuid "ef0fbedb-68bd-4f7b-b70a-270c67739f61")
 		)
 		(pin "3"
-			(uuid "946cf6fe-a9fc-477d-95ad-d1059de7c442")
+			(uuid "aa8944a2-8aa3-443b-8008-214680013ecb")
 		)
 		(pin "11"
-			(uuid "372204f5-79c3-4b25-88b2-8663ff53cd7b")
+			(uuid "6278537e-e760-4531-9bb2-8a63c1b684a9")
 		)
 		(pin "16"
-			(uuid "44b299bb-4b60-4bc1-b5e2-440aa0ea2d89")
+			(uuid "0dc8b0f2-c33d-45f1-ae9e-8e3aa2df0e1b")
 		)
 		(pin "10"
-			(uuid "e9b1d372-557f-430a-a7da-55b1bcb25f84")
+			(uuid "34fb503b-9159-4215-bf81-2ed41aa0a1d6")
 		)
 		(pin "1"
-			(uuid "e0ca9943-fba2-4858-8474-90fc75d8cfe0")
+			(uuid "e66365c1-3d5e-49a0-b570-fa8b0c50353d")
 		)
 		(pin "6"
-			(uuid "241b72a2-80ba-4c59-bc9b-1e7af6d69a8e")
+			(uuid "0f83554a-fd33-4715-ace6-66bb16619787")
 		)
 		(pin "5"
-			(uuid "06781671-da87-4a8b-9650-f509f5c6771d")
+			(uuid "4b1064e5-a9d3-404c-811c-4c9c17140d84")
 		)
 		(pin "4"
-			(uuid "5f97a4f3-12b5-480b-9d59-a86ca0466eeb")
+			(uuid "56da5565-228d-4e60-810c-40ed445e1941")
 		)
 		(pin "17"
-			(uuid "e31b9d34-cacf-43fc-a31e-0a4d103fcda1")
+			(uuid "aa8bb682-e434-4b64-9df2-f7989697e137")
 		)
 		(pin "15"
-			(uuid "97bb3957-4a41-4401-a431-786d457d0fdc")
+			(uuid "eb82199e-5d9d-4032-b667-ccc9262796ee")
 		)
 		(pin "14"
-			(uuid "760452d0-6ad3-4a27-b05c-5ac3a54e8e10")
+			(uuid "c8a6a95e-62f8-4e25-926e-8b7c9d5d4b19")
 		)
 		(pin "12"
-			(uuid "ada27c9e-2941-45e5-8460-016a83ebbea5")
+			(uuid "82aa845b-8cd0-4c48-8cca-a269f44e76a5")
 		)
 		(pin "13"
-			(uuid "4c232b38-a5fc-4b97-b2fa-7401860dc2dc")
+			(uuid "8af13e08-d34d-4088-9aa6-6063fe62625f")
 		)
 		(instances
 			(project "mikrainix"
@@ -5974,10 +5975,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9545eb53-509b-470f-83be-dc20efe712b2")
+			(uuid "e66e1ab2-821e-401b-a667-5d32613e1b61")
 		)
 		(pin "2"
-			(uuid "93cecbb0-efc1-4aa6-a5dc-ba97a7c09c9e")
+			(uuid "06ddb1a8-e95b-4384-9add-485b965ecd1e")
 		)
 		(instances
 			(project "mikrainix"
@@ -6000,7 +6001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7338a566-2f86-4764-98d0-20f68fa43679")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0167"
 			(at 140.97 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6055,12 +6056,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6424b59a-a46c-41e4-abdb-dba2382ad202")
+			(uuid "cff56dcb-3a63-419c-8d84-279ed766332e")
 		)
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0161")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -6132,10 +6133,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "61686b6b-7325-4b06-85e3-dccb244f7250")
+			(uuid "22383b64-e0a8-405c-88ec-fcd16ab5ddfb")
 		)
 		(pin "1"
-			(uuid "ccbd3d5e-5dd2-49d1-8a5b-0113997f4568")
+			(uuid "3e16d95b-3fba-4d32-8d13-32a48c8622ec")
 		)
 		(instances
 			(project "mikrainix"
@@ -6214,10 +6215,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e2698777-0420-40ec-8ae3-800ab30fc893")
+			(uuid "6a202f7c-de76-4c5d-860d-56b0a6256638")
 		)
 		(pin "1"
-			(uuid "c995d438-81e2-4f8c-8aee-3ef4c2a9717e")
+			(uuid "384365d9-9d5b-4003-9343-17af2249a1b8")
 		)
 		(instances
 			(project "mikrainix"
@@ -6240,7 +6241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a84051e0-6834-4ed0-81d9-ce9a302b09fc")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0170"
 			(at 21.59 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6295,12 +6296,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9105c101-6536-41d1-9cce-ae3fd706cf7a")
+			(uuid "ede6166e-4089-4446-bdc9-cb155820b84b")
 		)
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0164")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -6528,13 +6529,13 @@
 			(uuid "9982e524-2c50-41fe-9761-2f1ffeb3bf17")
 		)
 		(pin "30"
-			(uuid "13d72d5a-e049-4ddb-9409-758e498b1ac6")
+			(uuid "56175166-b27b-44e1-8283-1ab988e8ed76")
 		)
 		(pin "116"
 			(uuid "1bbe4a02-8dde-4341-af1d-6798afce0fc9")
 		)
 		(pin "36"
-			(uuid "28c2da71-dcf4-427e-99d1-c6b997f9beaa")
+			(uuid "44bf7d8a-257b-4886-a219-ef3cad088b40")
 		)
 		(pin "88"
 			(uuid "355ebff6-2e80-4884-a0d5-646b93fef296")
@@ -6588,7 +6589,7 @@
 			(uuid "e5e4d4f6-63ca-4a72-b718-453ada5ec416")
 		)
 		(pin "29"
-			(uuid "acaadc7a-bd66-478c-abf4-4fe2c682f554")
+			(uuid "1325abd5-0dd5-48e0-88f1-3fd5f37abe5c")
 		)
 		(pin "14"
 			(uuid "21c4badf-8b0d-48b9-b067-dcf8a9aa5245")
@@ -6675,7 +6676,7 @@
 			(uuid "bff5d5b3-a689-4edb-aff3-1891cbe4035c")
 		)
 		(pin "32"
-			(uuid "94b34b08-40ca-4ac0-bb07-fea961dd77f1")
+			(uuid "34ac7511-0a5e-44d4-8c53-2ad99f5ae89c")
 		)
 		(pin "61"
 			(uuid "603cb27d-7f03-49fd-b970-372dc3890eed")
@@ -6696,7 +6697,7 @@
 			(uuid "35a201cb-3ca8-43fa-bac6-ad0dea5e2aa9")
 		)
 		(pin "34"
-			(uuid "fad306f9-6608-4653-9515-459061b1db65")
+			(uuid "c1263104-e7c6-4104-8908-ff106c1e88e0")
 		)
 		(pin "59"
 			(uuid "5d2aaeba-51a5-4b16-bd97-4e8f977e872c")
@@ -6705,7 +6706,7 @@
 			(uuid "a8de68a1-0384-468a-b9d1-181dd9f5f8c6")
 		)
 		(pin "33"
-			(uuid "e944e843-2000-426a-82f4-184f71d998b4")
+			(uuid "dbd3eb80-adc6-4ebc-a87b-b45f5629fb0a")
 		)
 		(pin "53"
 			(uuid "a252410d-5b20-43a6-9d88-3abcdb2be563")
@@ -6753,7 +6754,7 @@
 			(uuid "37809e8d-88ba-4dcf-822b-69c7e5a1756a")
 		)
 		(pin "35"
-			(uuid "c30e3a2c-b9f0-486e-a2de-38d9d4cdd68d")
+			(uuid "aab4b6e6-ad8d-4eb5-9c2f-0c021aaf2892")
 		)
 		(pin "27"
 			(uuid "631dec68-3425-4504-a813-b2899f47bf27")
@@ -6834,10 +6835,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0c2efc2-95e6-4909-808d-28644cb52e91")
+			(uuid "f7b15ae8-8cce-43e1-bccf-5c0487436d12")
 		)
 		(pin "2"
-			(uuid "6c266b62-ca3f-4e6d-9b80-5b08da366803")
+			(uuid "506ee5f2-bec0-4290-8c1c-45a989801a38")
 		)
 		(instances
 			(project "mikrainix"
@@ -6860,7 +6861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f63a288d-f7ad-4537-9074-74ec528c7aa7")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0171"
 			(at 34.29 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6915,12 +6916,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ff814b3-fe46-4199-a2c7-96a67bd89269")
+			(uuid "712862d5-f28b-494b-81b4-f80d261ff4ce")
 		)
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0165")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)

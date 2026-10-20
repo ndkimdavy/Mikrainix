@@ -5,8 +5,9 @@
 	(uuid "841b57b6-27e0-467d-afcf-92177060fce9")
 	(paper "A3")
 	(title_block
-		(title "Smart Power Link v1.0")
-		(date "2026-10-08")
+		(title "Smart Power Link")
+		(date "2026-10-21")
+		(rev "v0.1")
 		(comment 1 "Project repository: github.com/ndkimdavy/Mikrainix")
 		(comment 2 "Designed by: Kim Davy NDAYONGEJE")
 	)
@@ -4127,7 +4128,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 55.88 -15.24 180)
 					(length 5.08)
 					(name "SW"
@@ -7411,12 +7412,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "912676d4-1f1c-49d7-84df-5508a27c65cf")
-	)
-	(junction
-		(at 304.8 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92a09217-b193-4857-a49b-918243be9d23")
 	)
 	(junction
 		(at 22.86 39.37)
@@ -11944,7 +11939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01ba72cc-7f3d-4b17-bb48-0871fc79375a")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG08"
 			(at 194.31 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -12004,7 +11999,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
-					(reference "#FLG09")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -14441,7 +14436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2731fd70-2a51-479b-9d92-cb806c2ec977")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG04"
 			(at 143.51 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -14501,7 +14496,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
-					(reference "#FLG05")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -15720,7 +15715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "434be160-5869-46c2-9f7b-d8969c51a4aa")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG09"
 			(at 207.01 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -15780,7 +15775,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
-					(reference "#FLG010")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -16286,7 +16281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c87378f-e178-45fb-895b-4a0122d00469")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 130.81 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -16346,7 +16341,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -16765,7 +16760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57e42c81-a70b-4a5b-8884-9cc1ecf4f25d")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 304.8 97.155 0)
 			(hide yes)
 			(show_name no)
@@ -16825,7 +16820,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -20369,7 +20364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9f07120-d134-4066-bd2d-918c190bc8ef")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG07"
 			(at 181.61 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -20429,7 +20424,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
-					(reference "#FLG08")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -21249,7 +21244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b69d4059-9de4-4657-90a7-c3cddde42a08")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG06"
 			(at 168.91 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -21309,7 +21304,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
-					(reference "#FLG07")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -21722,83 +21717,6 @@
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 304.8 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9dddad1-9e77-48a3-a313-a2f86fc208fa")
-		(property "Reference" "#FLG01"
-			(at 304.8 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWRF"
-			(at 304.8 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 304.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51b7dcc1-b23e-4d6e-bea8-a6f2a1d705a7")
-		)
-		(instances
-			(project "mikrainix"
-				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -23717,7 +23635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0ee6727-e68f-4834-9b3a-05c4da677a84")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG05"
 			(at 156.21 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -23777,7 +23695,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
-					(reference "#FLG06")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -23876,7 +23794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2cdc829-3161-4e82-943a-51b7a3aebdab")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 118.11 239.395 0)
 			(hide yes)
 			(show_name no)
@@ -23936,7 +23854,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/22cc9e10-2568-472f-808f-2c6ffeb9eeb0"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

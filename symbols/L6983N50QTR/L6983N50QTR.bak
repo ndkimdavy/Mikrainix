@@ -363,7 +363,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 55.88 -15.24 180)
 				(length 5.08)
 				(name "SW"
