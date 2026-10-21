@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 19.05 0)
+			(at 0 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "TPS65262-1RHBT"
-			(at -17.78 12.7 0)
+			(at 0 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "mikrainix-TPS65262-1RHBT:RHB0032E_NV"
-			(at -17.78 12.7 0)
+			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/TPS65262-1"
-			(at -17.78 12.7 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 -25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -100,7 +100,7 @@
 		)
 		(symbol "TPS65262-1RHBT_0_1"
 			(pin power_in line
-				(at -17.78 -50.8 0)
+				(at -17.78 -76.2 0)
 				(length 5.08)
 				(name "LVIN2"
 					(effects
@@ -118,7 +118,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -60.96 0)
+				(at -17.78 -86.36 0)
 				(length 5.08)
 				(name "LFB2"
 					(effects
@@ -136,7 +136,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -63.5 0)
+				(at -17.78 -88.9 0)
 				(length 5.08)
 				(name "LEN2"
 					(effects
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -7.62 0)
+				(at -17.78 -33.02 0)
 				(length 5.08)
 				(name "MODE"
 					(effects
@@ -172,7 +172,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -12.7 180)
+				(at 17.78 -38.1 180)
 				(length 5.08)
 				(name "FB2"
 					(effects
@@ -190,7 +190,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -15.24 0)
+				(at -17.78 -40.64 0)
 				(length 5.08)
 				(name "EN2"
 					(effects
@@ -208,7 +208,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -2.54 180)
+				(at 17.78 -27.94 180)
 				(length 5.08)
 				(name "BST2"
 					(effects
@@ -226,7 +226,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -38.1 180)
+				(at 17.78 -63.5 180)
 				(length 5.08)
 				(name "PGND2"
 					(effects
@@ -244,7 +244,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 10.16 0)
+				(at -17.78 -15.24 0)
 				(length 5.08)
 				(name "VIN2"
 					(effects
@@ -262,25 +262,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 7.62 0)
-				(length 5.08)
-				(name "VIN3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -40.64 180)
+				(at 17.78 -66.04 180)
 				(length 5.08)
 				(name "PGND3"
 					(effects
@@ -298,7 +280,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -17.78 180)
+				(at 17.78 -43.18 180)
 				(length 5.08)
 				(name "BST3"
 					(effects
@@ -316,7 +298,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -17.78 0)
+				(at -17.78 -43.18 0)
 				(length 5.08)
 				(name "EN3"
 					(effects
@@ -334,7 +316,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -27.94 180)
+				(at 17.78 -53.34 180)
 				(length 5.08)
 				(name "FB3"
 					(effects
@@ -352,7 +334,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -33.02 180)
+				(at 17.78 -58.42 180)
 				(length 5.08)
 				(name "AGND"
 					(effects
@@ -370,7 +352,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -27.94 0)
+				(at -17.78 -53.34 0)
 				(length 5.08)
 				(name "COMP1"
 					(effects
@@ -388,7 +370,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -22.86 0)
+				(at -17.78 -48.26 0)
 				(length 5.08)
 				(name "SS1"
 					(effects
@@ -406,7 +388,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 2.54 180)
+				(at 17.78 -22.86 180)
 				(length 5.08)
 				(name "FB1"
 					(effects
@@ -424,7 +406,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -12.7 0)
+				(at -17.78 -38.1 0)
 				(length 5.08)
 				(name "EN1"
 					(effects
@@ -442,7 +424,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 12.7 180)
+				(at 17.78 -12.7 180)
 				(length 5.08)
 				(name "BST1"
 					(effects
@@ -460,7 +442,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -35.56 180)
+				(at 17.78 -60.96 180)
 				(length 5.08)
 				(name "PGND1"
 					(effects
@@ -478,7 +460,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 12.7 0)
+				(at -17.78 -12.7 0)
 				(length 5.08)
 				(name "VIN1"
 					(effects
@@ -496,7 +478,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -45.72 0)
+				(at -17.78 -71.12 0)
 				(length 5.08)
 				(name "LEN1"
 					(effects
@@ -514,7 +496,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -43.18 0)
+				(at -17.78 -68.58 0)
 				(length 5.08)
 				(name "LFB1"
 					(effects
@@ -532,7 +514,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -33.02 0)
+				(at -17.78 -58.42 0)
 				(length 5.08)
 				(name "LVIN1"
 					(effects
@@ -552,8 +534,8 @@
 		)
 		(symbol "TPS65262-1RHBT_1_1"
 			(rectangle
-				(start -12.7 17.78)
-				(end 12.7 -68.58)
+				(start -12.7 -7.62)
+				(end 12.7 -93.98)
 				(stroke
 					(width 0)
 					(type solid)
@@ -564,7 +546,7 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 -55.88 0)
+				(at -17.78 -81.28 0)
 				(length 5.08)
 				(name "LOUT2"
 					(effects
@@ -582,7 +564,7 @@
 				)
 			)
 			(pin open_collector line
-				(at -17.78 -2.54 0)
+				(at -17.78 -27.94 0)
 				(length 5.08)
 				(name "PGOOD"
 					(effects
@@ -600,7 +582,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 -7.62 180)
+				(at 17.78 -33.02 180)
 				(length 5.08)
 				(name "LX2"
 					(effects
@@ -617,8 +599,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -17.78 -17.78 0)
+				(length 5.08)
+				(name "VIN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
-				(at 17.78 -22.86 180)
+				(at 17.78 -48.26 180)
 				(length 5.08)
 				(name "LX3"
 					(effects
@@ -636,7 +636,7 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 2.54 0)
+				(at -17.78 -22.86 0)
 				(length 5.08)
 				(name "V7V"
 					(effects
@@ -654,7 +654,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 7.62 180)
+				(at 17.78 -17.78 180)
 				(length 5.08)
 				(name "LX1"
 					(effects
@@ -672,7 +672,7 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 -38.1 0)
+				(at -17.78 -63.5 0)
 				(length 5.08)
 				(name "LOUT1"
 					(effects
@@ -690,7 +690,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -43.18 180)
+				(at 17.78 -68.58 180)
 				(length 5.08)
 				(name "PAD"
 					(effects

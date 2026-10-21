@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 25.4 -3.81 0)
+			(at 0 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "MAX4899EETE+T"
-			(at 25.4 -6.35 0)
+			(at 0 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "mikrainix-MAX4899EETE-T:21-0136_T1633+4_MXM"
-			(at 7.62 -12.7 0)
+			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX4899AE-MAX4899E.pdf"
-			(at 7.62 -12.7 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -25.4 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -100,8 +100,8 @@
 		)
 		(symbol "MAX4899EETE+T_1_1"
 			(rectangle
-				(start 12.7 -7.62)
-				(end 38.1 -40.64)
+				(start -12.7 -7.62)
+				(end 12.7 -40.64)
 				(stroke
 					(width 0)
 					(type solid)
@@ -112,7 +112,7 @@
 				)
 			)
 			(pin power_in line
-				(at 43.18 -30.48 180)
+				(at 17.78 -30.48 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -130,7 +130,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -17.78 0)
+				(at -17.78 -17.78 0)
 				(length 5.08)
 				(name "COMA+"
 					(effects
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -20.32 0)
+				(at -17.78 -20.32 0)
 				(length 5.08)
 				(name "COMA-"
 					(effects
@@ -166,7 +166,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -12.7 0)
+				(at -17.78 -12.7 0)
 				(length 5.08)
 				(name "V+"
 					(effects
@@ -184,7 +184,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -27.94 0)
+				(at -17.78 -27.94 0)
 				(length 5.08)
 				(name "C1"
 					(effects
@@ -202,7 +202,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -25.4 0)
+				(at -17.78 -25.4 0)
 				(length 5.08)
 				(name "C0"
 					(effects
@@ -220,7 +220,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 0 0)
+				(at -17.78 -45.72 0)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -239,7 +239,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -2.54 0)
+				(at -17.78 -48.26 0)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -258,7 +258,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -25.4 180)
+				(at 17.78 -25.4 180)
 				(length 5.08)
 				(name "USB2-"
 					(effects
@@ -276,7 +276,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -22.86 180)
+				(at 17.78 -22.86 180)
 				(length 5.08)
 				(name "USB2+"
 					(effects
@@ -294,7 +294,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -17.78 180)
+				(at 17.78 -17.78 180)
 				(length 5.08)
 				(name "USB1+"
 					(effects
@@ -312,7 +312,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -20.32 180)
+				(at 17.78 -20.32 180)
 				(length 5.08)
 				(name "USB1-"
 					(effects
@@ -330,7 +330,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -12.7 180)
+				(at 17.78 -12.7 180)
 				(length 5.08)
 				(name "USB0+"
 					(effects
@@ -348,7 +348,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -15.24 180)
+				(at 17.78 -15.24 180)
 				(length 5.08)
 				(name "USB0-"
 					(effects
@@ -366,7 +366,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -33.02 0)
+				(at -17.78 -33.02 0)
 				(length 5.08)
 				(name "nEN"
 					(effects
@@ -384,7 +384,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -35.56 0)
+				(at -17.78 -35.56 0)
 				(length 5.08)
 				(name "nQP"
 					(effects
@@ -402,7 +402,7 @@
 				)
 			)
 			(pin power_in line
-				(at 43.18 -33.02 180)
+				(at 17.78 -33.02 180)
 				(length 5.08)
 				(name "EPAD"
 					(effects

@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -1.27 21.59 0)
+			(at 0 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "TPS62821DLCR"
-			(at -1.27 19.05 0)
+			(at 0 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "mikrainix-TPS62821DLCR:DLC0008A"
-			(at -17.78 12.7 0)
+			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/TPS62821"
-			(at -17.78 12.7 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 -25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -100,7 +100,7 @@
 		)
 		(symbol "TPS62821DLCR_0_1"
 			(pin input line
-				(at -17.78 7.62 0)
+				(at -17.78 -17.78 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -118,7 +118,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 12.7 0)
+				(at -17.78 -12.7 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -138,8 +138,8 @@
 		)
 		(symbol "TPS62821DLCR_1_1"
 			(rectangle
-				(start -12.7 17.78)
-				(end 12.7 -10.16)
+				(start -12.7 -7.62)
+				(end 12.7 -35.56)
 				(stroke
 					(width 0)
 					(type solid)
@@ -150,7 +150,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 2.54 180)
+				(at 17.78 -22.86 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -168,7 +168,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -2.54 180)
+				(at 17.78 -27.94 180)
 				(length 5.08)
 				(name "AGND"
 					(effects
@@ -186,7 +186,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -17.78 22.86 0)
+				(at -17.78 -40.64 0)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -205,7 +205,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -5.08 180)
+				(at 17.78 -30.48 180)
 				(length 5.08)
 				(name "PGND"
 					(effects
@@ -223,7 +223,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 12.7 180)
+				(at 17.78 -12.7 180)
 				(length 5.08)
 				(name "SW"
 					(effects
@@ -241,7 +241,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 17.78 7.62 180)
+				(at 17.78 -17.78 180)
 				(length 5.08)
 				(name "PG"
 					(effects
