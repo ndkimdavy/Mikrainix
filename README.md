@@ -15,7 +15,7 @@ Mikrainix is a custom PCB design project for an embedded Linux mini PC based on 
 The board also integrates:
 
 - An STM32L052 microcontroller for system management and control.
-- An ESP32-C6 for Wi-Fi and Bluetooth Low Energy (BLE) connectivity.
+- An ESP32-MINI-1-N4 for Wi-Fi, Bluetooth Classic, and Bluetooth Low Energy (BLE) connectivity.
 - A USB-C Power Delivery interface for power management.
 - A shared USB port between the processors.
 
