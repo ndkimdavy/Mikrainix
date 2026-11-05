@@ -4125,8 +4125,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 1.27 1.27 0)
+			(property "Footprint" "mikrainix-TESTPOINT_SYM:TESTPOINT_x2P"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -8706,7 +8706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8766,7 +8766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00fbeb44-5b57-400c-87e0-19f39215f094")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR092"
 			(at 57.15 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8826,7 +8826,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR091")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -8943,7 +8943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9003,7 +9003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07f5da6b-a284-4e12-aa1a-1223ff2590bf")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0128"
 			(at 234.95 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9063,7 +9063,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0127")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -9081,7 +9081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a6c9ac6-2629-4d12-9301-4ea106f68318")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR090"
 			(at 57.15 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9141,7 +9141,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR089")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -9356,7 +9356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.3152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9416,7 +9416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "117807ec-1404-40f4-972c-b40b6c832f98")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0106"
 			(at 153.67 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9476,7 +9476,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -9514,7 +9514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mikrainix-TESTPOINT_SYM:TESTPOINT_x2P"
 			(at 44.45 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9596,7 +9596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.5152 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9656,7 +9656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13ceae4d-cd16-4c6a-b9c7-02e51a99ab47")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR082"
 			(at 44.45 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9716,7 +9716,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR081")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -9833,7 +9833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 154.6352 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9913,7 +9913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 176.53 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9999,7 +9999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mikrainix-TESTPOINT_SYM:TESTPOINT_x2P"
 			(at 179.07 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -10059,7 +10059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "188cc577-6d3a-44dd-9d81-b39f646e68eb")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR085"
 			(at 44.45 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -10119,7 +10119,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR084")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -10159,7 +10159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 154.6352 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10219,7 +10219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b2c7a34-8651-4a60-820e-cff63ce6b629")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0100"
 			(at 116.84 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10279,7 +10279,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR099")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -10297,7 +10297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fa70bfc-c9aa-45a5-8e6b-7e18cf2a27c3")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR096"
 			(at 57.15 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -10357,7 +10357,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR095")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -10375,7 +10375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20bcf51c-9a31-48df-8a73-12343ed832d5")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR094"
 			(at 57.15 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10435,7 +10435,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR093")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -10475,7 +10475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.3352 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10557,7 +10557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.4152 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10639,7 +10639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 58.1152 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10699,7 +10699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d7c5f15-7819-4f49-94de-474dec332ad0")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0120"
 			(at 209.55 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10760,7 +10760,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0119")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -10798,7 +10798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
 			(at 147.32 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10858,7 +10858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2edc64be-522c-431b-acbf-00ac7d751c5b")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0119"
 			(at 209.55 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10918,7 +10918,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0118")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -10936,7 +10936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c6d561-7648-402b-8ada-164843f5c0c5")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0115"
 			(at 209.55 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10996,7 +10996,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0114")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -11036,7 +11036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 248.6152 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11173,7 +11173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3887152a-0e64-47d2-97f2-a14413bbea4e")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0116"
 			(at 209.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11234,7 +11234,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0115")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -11252,7 +11252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39858e21-4bef-48b1-8bcf-e269ffacc80b")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0109"
 			(at 166.37 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11312,7 +11312,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0108")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -11330,7 +11330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a3885e7-05c4-4118-95ae-6432b6a4d6c0")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR081"
 			(at 44.45 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11390,7 +11390,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR080")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -11408,7 +11408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a39ab98-fa70-4ef3-87ed-382feda65984")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11468,7 +11468,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -11486,7 +11486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b9564e4-825e-4982-932f-715be8d9d435")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR078"
 			(at 31.75 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11546,7 +11546,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR077")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -11564,7 +11564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3df52705-50ca-4ff8-aa32-d2aa14d667c4")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0122"
 			(at 209.55 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11625,7 +11625,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0121")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -11742,7 +11742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.892 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -11824,7 +11824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.3152 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11907,7 +11907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 91.44 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -12000,7 +12000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 45.4152 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12082,7 +12082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.892 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -12164,7 +12164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 274.0152 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -12323,7 +12323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 154.6352 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12405,7 +12405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.2152 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -12487,7 +12487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.2152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12569,7 +12569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -12706,7 +12706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5638ba4b-31ba-4fa5-8ac7-a89031c7ef6b")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR097"
 			(at 57.15 254 0)
 			(hide yes)
 			(show_name no)
@@ -12766,7 +12766,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR096")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -12784,7 +12784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "567ba27a-0393-4c43-8447-190a947990e1")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0101"
 			(at 140.97 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12844,7 +12844,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0100")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -12862,7 +12862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57c11362-5ce1-43d4-bb02-48df1dd9826b")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0111"
 			(at 179.07 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12922,7 +12922,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0110")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -12962,7 +12962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 248.6152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13022,7 +13022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b06750a-e5b2-4533-a266-9b1bcfb4b84c")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR079"
 			(at 31.75 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -13082,7 +13082,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR078")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -13100,7 +13100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b22263f-6637-466a-a899-3b8d25215c61")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0123"
 			(at 209.55 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -13160,7 +13160,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0122")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -13198,7 +13198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.43 129.8448 0)
 			(hide yes)
 			(show_name no)
@@ -13280,7 +13280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.3352 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13362,7 +13362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.2152 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13444,7 +13444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 312.1152 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -13504,7 +13504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60ff2276-44bf-4944-b596-161f1831c748")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0136"
 			(at 349.25 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13564,7 +13564,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0135")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -13582,7 +13582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6158e779-5ab5-4ebe-8252-86a7904e979c")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0130"
 			(at 247.65 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -13642,7 +13642,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0129")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -13660,7 +13660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6164e0d9-2d25-45ba-9b7b-9109bd9bfeb4")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR093"
 			(at 57.15 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13720,7 +13720,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR092")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -13760,7 +13760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.372 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -13820,7 +13820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "645c8cf5-d3be-41d6-b364-aaa251acbad1")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0114"
 			(at 209.55 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13880,7 +13880,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0113")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -13898,7 +13898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68e228b9-ea7c-4e45-9c4e-02170e23a65c")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0104"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13958,7 +13958,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0103")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -13976,7 +13976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aa82c26-429e-4f58-a79b-6f3d429c966b")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0134"
 			(at 323.85 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14037,7 +14037,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0133")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -14077,7 +14077,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.518 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -14159,7 +14159,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 43.4848 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14219,7 +14219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "713f77a8-ae5d-4793-8179-da19f43d6752")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0133"
 			(at 323.85 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14279,7 +14279,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0132")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -14297,7 +14297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "779db3b4-eabe-489c-87e4-4c002e0754ce")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0113"
 			(at 191.77 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14357,7 +14357,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0112")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -14397,7 +14397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 248.6152 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14477,7 +14477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.43 79.0448 0)
 			(hide yes)
 			(show_name no)
@@ -14557,7 +14557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP5030T"
 			(at 147.32 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14617,7 +14617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ca6288a-dc23-4146-914b-bd4a478af144")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR083"
 			(at 44.45 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14677,7 +14677,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR082")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -14717,7 +14717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.372 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -14877,7 +14877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 20.0152 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -14937,7 +14937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83871e7c-ec80-4afb-ab02-261e598834ed")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0105"
 			(at 153.67 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14997,7 +14997,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0104")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -15015,7 +15015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84293115-3fb8-4e93-b656-9ac89621ecf8")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0126"
 			(at 222.25 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -15075,7 +15075,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0125")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -15115,7 +15115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 274.0152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15175,7 +15175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88898e16-d09f-4f23-a9fd-24b7384f886b")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR088"
 			(at 57.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -15235,7 +15235,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR087")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -15275,7 +15275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.892 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -15357,7 +15357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.5152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15417,7 +15417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92fe640c-981c-40af-8ffb-17e8d3943782")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0129"
 			(at 234.95 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -15477,7 +15477,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0128")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -15517,7 +15517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -15597,7 +15597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 176.53 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -15683,7 +15683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.43 25.7048 0)
 			(hide yes)
 			(show_name no)
@@ -15743,7 +15743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e16b9f-d357-4d76-98bd-f1ca30edda30")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR095"
 			(at 57.15 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -15803,7 +15803,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR094")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -15843,7 +15843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.5152 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -15923,7 +15923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.9 43.688 90)
 			(hide yes)
 			(show_name no)
@@ -16005,7 +16005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -16065,7 +16065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e632799-fb49-4112-a126-3be53fd9192c")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0117"
 			(at 209.55 127 0)
 			(hide yes)
 			(show_name no)
@@ -16125,7 +16125,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0116")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -16165,7 +16165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16225,7 +16225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0ebf2d8-b9e2-4a1a-84d1-e1b2deb6c033")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR084"
 			(at 44.45 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -16285,7 +16285,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR083")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -16303,7 +16303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a16677d9-187c-4ae6-9115-e464231dcc01")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0127"
 			(at 222.25 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -16363,7 +16363,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0126")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -16401,7 +16401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.61 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16489,7 +16489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.2152 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16569,7 +16569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 189.23 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -16635,7 +16635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5dc9f6c-2a2d-46e8-b51e-e08cc5d96c62")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0103"
 			(at 140.97 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -16695,7 +16695,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0102")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -16735,7 +16735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 286.7152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16817,7 +16817,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 56.1848 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -16899,7 +16899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 312.1152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16959,7 +16959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acee4b00-4d35-4d6e-aedd-0a50169916fe")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0110"
 			(at 166.37 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17019,7 +17019,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0109")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -17059,7 +17059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -17119,7 +17119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b442f998-9b23-45ab-87a4-8ddc3b91772a")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR080"
 			(at 44.45 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -17179,7 +17179,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR079")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -17197,7 +17197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b50c67f0-e209-418d-9d14-ce8169872fc9")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0132"
 			(at 279.4 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -17258,7 +17258,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0131")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -17298,7 +17298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.192 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -17380,7 +17380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 45.4152 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -17462,7 +17462,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 93.218 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -17522,7 +17522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c233e1dd-9d29-47b8-bc8b-c6e2cadd5cf4")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0131"
 			(at 260.35 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -17582,7 +17582,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0130")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -17620,7 +17620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mikrainix-TESTPOINT_SYM:TESTPOINT_x2P"
 			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
@@ -17680,7 +17680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c49c1742-8fa6-42b2-907e-f7d2a2b00748")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0108"
 			(at 166.37 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17740,7 +17740,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0107")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -17780,7 +17780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.192 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -17939,7 +17939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 223.2152 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -18021,7 +18021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.3152 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18103,7 +18103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 46.228 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -18185,7 +18185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 46.228 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -18267,7 +18267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.5152 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18328,7 +18328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd69a7f4-9137-4c0e-942a-1e6bc3ecdd6c")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR099"
 			(at 91.44 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18388,7 +18388,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR098")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -18428,7 +18428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.2152 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18508,7 +18508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
 			(at 147.32 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18590,7 +18590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 45.4152 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -18650,7 +18650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2510f19-2bc7-444e-9acb-782ca5d98370")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0102"
 			(at 140.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18710,7 +18710,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0101")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -18750,7 +18750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.1152 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -18810,7 +18810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2a08055-3485-49ae-bf1f-17450d7c21ff")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0121"
 			(at 209.55 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -18870,7 +18870,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0120")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -18888,7 +18888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2e11982-3b45-4f86-aae8-d39b654a9ca0")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR086"
 			(at 44.45 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -18948,7 +18948,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR085")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -18966,7 +18966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3e6d784-fac7-485b-9f32-ed09e95d7937")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR098"
 			(at 85.09 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19026,7 +19026,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR097")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -19066,7 +19066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.3352 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -19148,7 +19148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.5152 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19230,7 +19230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 32.7152 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -19290,7 +19290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db677b4d-ce0d-4d82-9bbd-0f42a9fa6d79")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR087"
 			(at 44.45 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -19350,7 +19350,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR086")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -19368,7 +19368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc239b69-ff1b-447b-a4af-e59e56e85eef")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0135"
 			(at 336.55 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -19428,7 +19428,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0134")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -19446,7 +19446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df75c00f-5ced-457c-bb9b-8cb50c6914df")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0125"
 			(at 209.55 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -19506,7 +19506,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0124")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -19524,7 +19524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2804cfd-e8e7-42ef-a064-d7c37d468242")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0107"
 			(at 166.37 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19584,7 +19584,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0106")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -19602,7 +19602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e31e1c1d-926c-4c19-8b42-b098cd83ea97")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0112"
 			(at 179.07 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -19662,7 +19662,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0111")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -19702,7 +19702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 322.072 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -19784,7 +19784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.372 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -19866,7 +19866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 58.1152 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -20387,7 +20387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5aec897-0639-4206-bfbd-0b052dab7906")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0124"
 			(at 209.55 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -20448,7 +20448,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0123")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -20466,7 +20466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5ec26c7-58e3-4e8b-9024-2c89eb456c44")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 19.05 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -20526,7 +20526,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -20544,7 +20544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e68c28c3-b77c-4b67-bc27-050508cd26f5")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR089"
 			(at 57.15 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -20604,7 +20604,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR088")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -20644,7 +20644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.192 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -20803,7 +20803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 286.7152 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -20885,7 +20885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 299.4152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -20967,7 +20967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -21027,7 +21027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f73e18d3-dbd4-4801-80a6-a3424c4e113d")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR091"
 			(at 57.15 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -21087,7 +21087,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR090")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -21105,7 +21105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9acb302-93e9-417a-8dd1-17cf6655cb23")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 19.05 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -21165,7 +21165,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -21203,7 +21203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mikrainix-TESTPOINT_SYM:TESTPOINT_x2P"
 			(at 44.45 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -21263,7 +21263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa20da9d-5e42-412d-8e4d-88f15c11e2f1")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0118"
 			(at 209.55 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -21324,7 +21324,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/56d5c331-fd56-45f3-b054-d477268a927d"
-					(reference "#PWR0117")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -21450,7 +21450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.61 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -21538,7 +21538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 167.3352 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -21618,7 +21618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mikrainix-TESTPOINT_SYM:TESTPOINT_x2P"
 			(at 166.37 76.2 0)
 			(hide yes)
 			(show_name no)

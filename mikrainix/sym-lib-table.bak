@@ -4,7 +4,6 @@
 	(lib (name "mikrainix-R_SHUNT_SYM") (type "KiCad") (uri "/${KIPRJMOD}/../symbols/R_SHUNT_SYM/R_SHUNT_SYM.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-TESTPOINT_SYM") (type "KiCad") (uri "${KIPRJMOD}/../symbols/TESTPOINT_SYM/TESTPOINT_SYM.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-ESD_SYM") (type "KiCad") (uri "${KIPRJMOD}/../symbols/ESD_SYM/ESD_SYM.kicad_sym") (options "") (descr ""))
-	(lib (name "mikrainix-TPD2E001DZDR") (type "KiCad") (uri "${KIPRJMOD}/../symbols/TPD2E001DZDR/TPD2E001DZDR.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-TPD6E05U06RVZR") (type "KiCad") (uri "${KIPRJMOD}/../symbols/TPD6E05U06RVZR/TPD6E05U06RVZR.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-STUSB4500QTR") (type "KiCad") (uri "${KIPRJMOD}/../symbols/STUSB4500QTR/STUSB4500QTR.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-STM32L052C8U6") (type "KiCad") (uri "${KIPRJMOD}/../symbols/STM32L052C8U6/STM32L052C8U6.kicad_sym") (options "") (descr ""))

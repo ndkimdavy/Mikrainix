@@ -31,8 +31,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 1.27 1.27 0)
+		(property "Footprint" "mikrainix-TESTPOINT_SYM:TESTPOINT_x2P"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
