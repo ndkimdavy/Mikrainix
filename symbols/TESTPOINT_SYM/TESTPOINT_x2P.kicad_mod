@@ -5,9 +5,9 @@
 	(layer "F.Cu")
 	(tags "test point tp")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 -1.5 0)
 		(layer "F.SilkS")
-		(uuid "7d69e362-c910-43c2-b9e6-abb9151ba2b8")
+		(uuid "969c771d-3700-4ac9-b8b7-dea91718d971")
 		(effects
 			(font
 				(size 1 1)
@@ -16,9 +16,9 @@
 		)
 	)
 	(property "Value" "TESTPOINT_x2P"
-		(at 0 2.5 0)
+		(at 0 1.5 0)
 		(layer "F.Fab")
-		(uuid "d1f45e2f-ea40-402d-95df-397f36d326e7")
+		(uuid "c117359c-7d2a-4981-859b-8edb09dcf0d5")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0b530f8a-25fb-4bc8-8a27-c22e027921a1")
+		(uuid "aa0fb32b-f2f5-4cde-a920-e557f51edf88")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7894c143-4028-4e92-80b0-416a8d34a588")
+		(uuid "f8d43728-c8e8-4b30-b384-6034873c40f6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,53 +55,53 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
-		(center -2.5 0)
-		(end -2.5 1.2)
+		(center -1 0)
+		(end -1 0.6)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "1ca7b235-9bf5-4ad8-8957-60f958ce16e6")
+		(uuid "c2af0f48-8d8d-426c-b76b-775c905cd3e7")
 	)
 	(fp_circle
-		(center 2.5 0)
-		(end 2.5 1.2)
+		(center 1 0)
+		(end 1 0.6)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "7af83944-0bee-4178-8923-49e10ee5e051")
+		(uuid "a5efb9dc-4c13-4027-9d42-fe85a64404f0")
 	)
 	(fp_circle
-		(center -2.5 0)
-		(end -1 0)
+		(center -1 0)
+		(end -0.3 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ce3643a7-1bc6-4ab4-bcb3-bc8ccd537e84")
+		(uuid "cbf71cbd-1cb8-4f81-bb8f-410d64a34a3a")
 	)
 	(fp_circle
-		(center 2.5 0)
-		(end 4 0)
+		(center 1 0)
+		(end 1.7 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "88203ea6-aa63-4a5a-b1dc-e2c6d43c5dbc")
+		(uuid "3a4c9fe3-833b-48a7-b588-f6024e7e5fd6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "13119973-6ab2-45f3-8ff7-c5c0b2da4745")
+		(uuid "248defc1-9af4-404b-8ba1-a56bd1a7a451")
 		(effects
 			(font
 				(size 1 1)
@@ -110,16 +110,16 @@
 		)
 	)
 	(pad "1" smd circle
-		(at -2.5 0)
-		(size 2 2)
+		(at -1 0)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask")
-		(uuid "b76f98f8-7713-4588-baf8-416139367261")
+		(uuid "96fe333d-d0f0-4f5e-87d1-9b86ae5a4a21")
 	)
 	(pad "2" smd circle
-		(at 2.5 0)
-		(size 2 2)
+		(at 1 0)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask")
-		(uuid "104c1959-de36-4e17-a845-943f9b474080")
+		(uuid "8aacf5a5-e8ed-4ed6-8c96-b4d96d9d7245")
 	)
 	(embedded_fonts no)
 )

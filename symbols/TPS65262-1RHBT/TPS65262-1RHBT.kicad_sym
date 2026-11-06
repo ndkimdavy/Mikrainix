@@ -17,7 +17,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27,7 +27,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -66,28 +66,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "TPS65262-1RHBT"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "RHB0032E RHB0032E_NV"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -226,24 +205,6 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -63.5 180)
-				(length 5.08)
-				(name "PGND2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -17.78 -15.24 0)
 				(length 5.08)
 				(name "VIN2"
@@ -254,24 +215,6 @@
 					)
 				)
 				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -66.04 180)
-				(length 5.08)
-				(name "PGND3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -442,24 +385,6 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -60.96 180)
-				(length 5.08)
-				(name "PGND1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -17.78 -12.7 0)
 				(length 5.08)
 				(name "VIN1"
@@ -600,6 +525,25 @@
 				)
 			)
 			(pin power_in line
+				(at 17.78 -60.96 180)
+				(length 5.08)
+				(hide yes)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -17.78 -17.78 0)
 				(length 5.08)
 				(name "VIN3"
@@ -610,6 +554,25 @@
 					)
 				)
 				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -60.96 180)
+				(length 5.08)
+				(hide yes)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -671,6 +634,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 17.78 -60.96 180)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at -17.78 -63.5 0)
 				(length 5.08)
@@ -690,7 +671,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -68.58 180)
+				(at 17.78 -63.5 180)
 				(length 5.08)
 				(name "PAD"
 					(effects

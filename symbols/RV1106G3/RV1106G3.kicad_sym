@@ -726,7 +726,7 @@
 			(pin input line
 				(at 0 -25.4 90)
 				(length 5.08)
-				(name "nPOR"
+				(name "~{POR}"
 					(effects
 						(font
 							(size 1.27 1.27)

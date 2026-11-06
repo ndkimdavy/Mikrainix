@@ -67,28 +67,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "ESDx1"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "QFN1610_STM QFN1610_STM-M QFN1610_STM-L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -280,7 +259,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at -12.7 -6.35 0)
+			(at 5.08 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -290,7 +269,365 @@
 			)
 		)
 		(property "Value" "ESDx2"
-			(at -12.7 -8.89 0)
+			(at 5.08 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "ESDx2"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ESDx2_0_1"
+			(polyline
+				(pts
+					(xy 5.08 0.9525) (xy 4.7625 1.27)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0.9525) (xy 5.08 -0.9525)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 7.62 1.27)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 7.62 1.27) (xy 7.62 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -0.9525) (xy 5.3975 -1.27)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -4.1275) (xy 4.7625 -3.81)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -4.1275) (xy 5.08 -6.0325)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 7.62 -3.81)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 7.62 -3.81) (xy 7.62 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -6.0325) (xy 5.3975 -6.35)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 1.27) (xy 7.62 -1.27)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -1.27) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -3.81) (xy 7.62 -6.35)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -6.35) (xy 5.08 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ESDx2_1_1"
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 7.62 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 8.89 -5.08) (xy 8.89 0) (xy 7.62 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -2.54) (xy 11.43 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -2.54) (xy 12.7 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -2.54) (xy 12.7 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -2.54 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ESDx4"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDx4"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -332,7 +669,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "ESDx2"
+		(property "ki_keywords" "ESDx4"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -343,10 +680,10 @@
 				)
 			)
 		)
-		(symbol "ESDx2_0_1"
+		(symbol "ESDx4_0_1"
 			(polyline
 				(pts
-					(xy -12.7 -11.7475) (xy -13.0175 -11.43)
+					(xy -7.62 -11.7475) (xy -7.9375 -11.43)
 				)
 				(stroke
 					(width 0.127)
@@ -358,7 +695,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -11.7475) (xy -12.7 -13.6525)
+					(xy -7.62 -11.7475) (xy -7.62 -13.6525)
 				)
 				(stroke
 					(width 0.127)
@@ -370,7 +707,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -12.7) (xy -10.16 -11.43)
+					(xy -7.62 -12.7) (xy -5.08 -11.43)
 				)
 				(stroke
 					(width 0.127)
@@ -382,7 +719,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -12.7) (xy -10.16 -11.43) (xy -10.16 -13.97)
+					(xy -7.62 -12.7) (xy -5.08 -11.43) (xy -5.08 -13.97)
 				)
 				(stroke
 					(width 0)
@@ -394,7 +731,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -13.6525) (xy -12.3825 -13.97)
+					(xy -7.62 -13.6525) (xy -7.3025 -13.97)
 				)
 				(stroke
 					(width 0.127)
@@ -406,7 +743,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -16.8275) (xy -13.0175 -16.51)
+					(xy -7.62 -16.8275) (xy -7.9375 -16.51)
 				)
 				(stroke
 					(width 0.127)
@@ -418,7 +755,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -16.8275) (xy -12.7 -18.7325)
+					(xy -7.62 -16.8275) (xy -7.62 -18.7325)
 				)
 				(stroke
 					(width 0.127)
@@ -430,7 +767,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -17.78) (xy -10.16 -16.51)
+					(xy -7.62 -17.78) (xy -5.08 -16.51)
 				)
 				(stroke
 					(width 0.127)
@@ -442,7 +779,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -17.78) (xy -10.16 -16.51) (xy -10.16 -19.05)
+					(xy -7.62 -17.78) (xy -5.08 -16.51) (xy -5.08 -19.05)
 				)
 				(stroke
 					(width 0)
@@ -454,7 +791,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -18.7325) (xy -12.3825 -19.05)
+					(xy -7.62 -18.7325) (xy -7.3025 -19.05)
 				)
 				(stroke
 					(width 0.127)
@@ -466,7 +803,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -11.43) (xy -10.16 -13.97)
+					(xy -5.08 -11.43) (xy -5.08 -13.97)
 				)
 				(stroke
 					(width 0.127)
@@ -478,7 +815,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -13.97) (xy -12.7 -12.7)
+					(xy -5.08 -13.97) (xy -7.62 -12.7)
 				)
 				(stroke
 					(width 0.127)
@@ -490,7 +827,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -16.51) (xy -10.16 -19.05)
+					(xy -5.08 -16.51) (xy -5.08 -19.05)
 				)
 				(stroke
 					(width 0.127)
@@ -502,7 +839,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -19.05) (xy -12.7 -17.78)
+					(xy -5.08 -19.05) (xy -7.62 -17.78)
 				)
 				(stroke
 					(width 0.127)
@@ -513,10 +850,10 @@
 				)
 			)
 		)
-		(symbol "ESDx2_1_1"
+		(symbol "ESDx4_1_1"
 			(polyline
 				(pts
-					(xy -10.16 -17.78) (xy -10.16 -17.78)
+					(xy -5.08 -17.78) (xy -5.08 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -528,7 +865,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -17.78) (xy -8.89 -17.78) (xy -8.89 -12.7) (xy -10.16 -12.7)
+					(xy -5.08 -17.78) (xy -3.81 -17.78) (xy -3.81 -12.7) (xy -5.08 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -540,7 +877,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -15.24) (xy -6.35 -15.24)
+					(xy -1.27 -15.24) (xy -1.27 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -552,7 +889,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -15.24) (xy -5.08 -15.24)
+					(xy -1.27 -15.24) (xy 0 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -564,7 +901,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -15.24) (xy -5.08 -15.24)
+					(xy 0 -15.24) (xy 0 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -575,7 +912,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -12.7 0)
+				(at -12.7 -12.7 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -593,7 +930,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -17.78 0)
+				(at -12.7 -17.78 0)
 				(length 5.08)
 				(name ""
 					(effects
@@ -611,7 +948,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -15.24 180)
+				(at 1.27 -15.24 180)
 				(length 5.08)
 				(name ""
 					(effects
