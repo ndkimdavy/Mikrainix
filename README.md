@@ -1,6 +1,6 @@
 # Mikrainix
 
-Mikrainix is a custom PCB design project for an embedded Linux mini PC based on the **Rockchip RV1106G3 MPU**, with hardware acceleration for AI.
+Mikrainix is a custom PCB design project for an embedded Linux mini PC based on the **Rockchip RV1106G3 MPU**, featuring integrated AI hardware acceleration and a **Lattice ECP5 FPGA** for programmable logic.
 
 ## MPU Specifications
 
@@ -10,14 +10,20 @@ Mikrainix is a custom PCB design project for an embedded Linux mini PC based on 
 - **NPU:** 1 TOPS AI accelerator.
 - **Interfaces:** USB 2.0, Ethernet, SDIO, UART, SPI, and I²C.
 
+## FPGA Specifications
+
+- **FPGA:** Lattice ECP5 LFE5U-25F-7BG256C.
+- **Communication:** SPI interface with the Rockchip MPU and USB-UART interface.
+
 ## Board Architecture
 
-The board also integrates:
+The design also includes:
 
 - An STM32L052 microcontroller for system management and control.
-- An ESP32-MINI-1-N4 for Wi-Fi, Bluetooth Classic, and Bluetooth Low Energy (BLE) connectivity.
+- An ESP32-MINI-1-N4 for Wi-Fi and Bluetooth connectivity.
 - A USB-C Power Delivery interface for power management.
-- A shared USB port between the processors.
+- A shared USB port between the MPU and FPGA.
+- A dedicated FPGA subsystem with its own power supplies and communication interfaces.
 
 ## Project Status
 
