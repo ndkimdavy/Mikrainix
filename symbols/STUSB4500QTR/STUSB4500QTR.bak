@@ -182,7 +182,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -2.54 270)
+				(at -6.35 -2.54 270)
 				(length 5.08)
 				(name "RESET"
 					(effects
@@ -506,7 +506,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 -2.54 270)
+				(at 1.27 -2.54 270)
 				(length 5.08)
 				(name "VDD"
 					(effects

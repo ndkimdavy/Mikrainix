@@ -691,7 +691,7 @@
         "uuid": "19082ed6-8f17-4d62-ab42-418ea03b55ea"
       }
     ],
-    "used_designators": "#FLG1-27,#PWR1-204,BFLASH1,C1-130,CR1-6,D1-17,FB1-2,J1-6,L1-7,Q1-11,R1-109,SW1-9,TP1,TP\\-2P1-10,U1-15,Y1-5",
+    "used_designators": "#FLG1-27,#PWR1-279,BFLASH1,C1-213,CR1-6,D1-19,FB1-5,J1-6,L1-9,Q1-11,R1-117,SW1-9,TP1,TP\\-2P1-10,U1-19,Y1-5",
     "variants": []
   },
   "sheets": [
@@ -722,6 +722,14 @@
     [
       "631bf9b2-77f0-4ab3-a093-ba109d4e2413",
       "U_MPU-Storage"
+    ],
+    [
+      "aa93e795-3aeb-4efd-8596-72694791a637",
+      "U_FPGA-PowerSupply"
+    ],
+    [
+      "d3c29566-7052-499d-b74b-b1bbbb5ca608",
+      "U_FPGA-Ctrl"
     ]
   ],
   "text_variables": {},

@@ -9,7 +9,7 @@
 	(lib (name "mikrainix-2345986-1") (type "KiCad") (uri "${KIPRJMOD}/../symbols/2345986-1/2345986-1.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-STL6P3LLH6") (type "KiCad") (uri "${KIPRJMOD}/../symbols/STL6P3LLH6/STL6P3LLH6.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-ECMF02-2AMX6") (type "KiCad") (uri "${KIPRJMOD}/../symbols/ECMF02-2AMX6/ECMF02-2AMX6.kicad_sym") (options "") (descr ""))
-	(lib (name "mikrainix-L6983N50QTR") (type "KiCad") (uri "${KIPRJMOD}/../symbols/L6983N50QTR/L6983N50QTR.kicad_sym") (options "") (descr ""))
+	(lib (name "mikrainix-TS3USB3031RMGR") (type "KiCad") (uri "${KIPRJMOD}/../symbols/TS3USB3031RMGR/TS3USB3031RMGR.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-RV1106G3") (type "KiCad") (uri "${KIPRJMOD}/../symbols/RV1106G3/RV1106G3.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-LFE5U-25F-7BG256C") (type "KiCad") (uri "${KIPRJMOD}/../symbols/LFE5U-25F-7BG256C/LFE5U-25F-7BG256C.kicad_sym") (options "") (descr ""))
 	(lib (name "mikrainix-TPS65262-1RHBT") (type "KiCad") (uri "${KIPRJMOD}/../symbols/TPS65262-1RHBT/TPS65262-1RHBT.kicad_sym") (options "") (descr ""))
