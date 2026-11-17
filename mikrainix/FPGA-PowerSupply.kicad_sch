@@ -6368,7 +6368,7 @@
 	)
 	(rectangle
 		(start 73.66 119.38)
-		(end 110.49 142.24)
+		(end 99.06 135.89)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -7726,16 +7726,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 128.27) (xy 105.41 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfaa46f4-d2f7-44c2-b9b1-d57d3067517d")
-	)
-	(wire
-		(pts
 			(xy 123.19 29.21) (xy 125.73 29.21)
 		)
 		(stroke
@@ -8144,16 +8134,6 @@
 		)
 		(uuid "ca1144bc-c2f3-4d87-b467-3525ae778aaa")
 	)
-	(label "VCCAUX:x2"
-		(at 105.41 139.7 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbf78133-b4e4-42ac-8d1f-551c73546a5e")
-	)
 	(label "VCCIO3:x2"
 		(at 322.58 124.46 180)
 		(effects
@@ -8196,7 +8176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02480191-1e48-407c-8f76-f1dd50aaf77c")
-		(property "Reference" "C136"
+		(property "Reference" "C135"
 			(at 38.1 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8260,7 +8240,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C136")
+					(reference "C135")
 					(unit 1)
 				)
 			)
@@ -8278,7 +8258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02c9adff-69f0-46d6-867b-fccb125670e4")
-		(property "Reference" "C137"
+		(property "Reference" "C136"
 			(at 50.8 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8342,7 +8322,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C137")
+					(reference "C136")
 					(unit 1)
 				)
 			)
@@ -8360,7 +8340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "041df33e-c93c-4733-9514-d4b73824fe2d")
-		(property "Reference" "R83"
+		(property "Reference" "R82"
 			(at 138.43 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8424,7 +8404,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "R83")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -8442,7 +8422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "079d033d-8de8-42f5-8434-7ab02e9b0e62")
-		(property "Reference" "C118"
+		(property "Reference" "C117"
 			(at 313.69 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8506,7 +8486,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C118")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -9463,7 +9443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a7f8d3c-6fbc-4126-ae81-4d031162e174")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0221"
 			(at 92.71 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9523,7 +9503,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0226")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -9541,7 +9521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ae099b7-ce61-4dd6-9d1c-92cbfa7baa54")
-		(property "Reference" "C146"
+		(property "Reference" "C145"
 			(at 300.99 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9605,7 +9585,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C146")
+					(reference "C145")
 					(unit 1)
 				)
 			)
@@ -9623,7 +9603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0de1e25c-fc61-43b0-a201-beeae8f2b003")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0228"
 			(at 297.18 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -9683,7 +9663,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0233")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -9701,7 +9681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e3a919e-af1b-48f6-81a3-048fbad1bbcc")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR0225"
 			(at 64.77 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9761,7 +9741,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0230")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -9779,7 +9759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fb720ea-dbaf-42a6-b387-90c2d4dece9f")
-		(property "Reference" "C143"
+		(property "Reference" "C142"
 			(at 190.5 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9843,7 +9823,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C143")
+					(reference "C142")
 					(unit 1)
 				)
 			)
@@ -9860,7 +9840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11080624-e837-4cb9-bfcd-213b3e43aba4")
-		(property "Reference" "C128"
+		(property "Reference" "C127"
 			(at 76.2 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9924,7 +9904,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C128")
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -9942,7 +9922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12f63cfa-40c1-4b09-aed3-0adbe3a92906")
-		(property "Reference" "C159"
+		(property "Reference" "C158"
 			(at 288.29 228.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9964,7 +9944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 285.4452 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -10006,7 +9986,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C159")
+					(reference "C158")
 					(unit 1)
 				)
 			)
@@ -10024,7 +10004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14224f87-0d21-4890-a0af-f84d6faa0cde")
-		(property "Reference" "C148"
+		(property "Reference" "C147"
 			(at 288.29 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10046,7 +10026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 285.4452 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10088,7 +10068,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C148")
+					(reference "C147")
 					(unit 1)
 				)
 			)
@@ -10106,7 +10086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16fdd6a1-115f-4292-b1d6-9c2078b13502")
-		(property "Reference" "C111"
+		(property "Reference" "C110"
 			(at 224.79 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10128,7 +10108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 221.9452 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10170,7 +10150,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C111")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -10188,7 +10168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b58517d-3b58-4b65-8c6f-432a15d2983a")
-		(property "Reference" "C126"
+		(property "Reference" "C125"
 			(at 177.8 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10252,7 +10232,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C126")
+					(reference "C125")
 					(unit 1)
 				)
 			)
@@ -10270,7 +10250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c182f15-79aa-48b7-b9b4-e22d38f3eb97")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR0189"
 			(at 21.59 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10330,7 +10310,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0194")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -10348,7 +10328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e018fbb-a766-4b48-9cf3-cb976710b6f7")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0215"
 			(at 72.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10408,7 +10388,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0220")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -10426,7 +10406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e272d5a-e5b3-41a8-85d9-5ad73cefea30")
-		(property "Reference" "C134"
+		(property "Reference" "C133"
 			(at 313.69 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10490,7 +10470,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C134")
+					(reference "C133")
 					(unit 1)
 				)
 			)
@@ -10508,7 +10488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21a6bf41-a4fc-4023-8c40-54ca8699b997")
-		(property "Reference" "C153"
+		(property "Reference" "C152"
 			(at 313.69 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10572,7 +10552,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C153")
+					(reference "C152")
 					(unit 1)
 				)
 			)
@@ -10590,7 +10570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e12a89-d4e3-4e3e-8d4f-03b952bf2024")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0199"
 			(at 135.89 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10650,7 +10630,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0204")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -10668,7 +10648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2330ab21-45ed-4b6b-b4e6-c84d944d9a43")
-		(property "Reference" "R80"
+		(property "Reference" "R79"
 			(at 138.43 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10732,7 +10712,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "R80")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -10750,7 +10730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25cf9e6d-1ceb-43e9-87fd-9d73debca292")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0216"
 			(at 135.89 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10810,7 +10790,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0221")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -10828,7 +10808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e696a68-5834-4316-8528-47dfa36932fa")
-		(property "Reference" "C154"
+		(property "Reference" "C153"
 			(at 288.29 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10850,7 +10830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 285.4452 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -10892,7 +10872,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C154")
+					(reference "C153")
 					(unit 1)
 				)
 			)
@@ -11022,7 +11002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fd8571a-cf71-4b9e-a303-8150b50b2856")
-		(property "Reference" "C140"
+		(property "Reference" "C139"
 			(at 152.4 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11086,7 +11066,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C140")
+					(reference "C139")
 					(unit 1)
 				)
 			)
@@ -11104,7 +11084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3001c800-df99-4266-a22f-5ded7b631834")
-		(property "Reference" "C122"
+		(property "Reference" "C121"
 			(at 63.5 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11168,7 +11148,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C122")
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -11186,7 +11166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3069d8da-ca77-4dd4-9322-792944813573")
-		(property "Reference" "C114"
+		(property "Reference" "C113"
 			(at 262.89 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11250,7 +11230,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C114")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -11268,7 +11248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32778bf1-ecc3-4321-bfb5-b9d1eb11d98b")
-		(property "Reference" "C161"
+		(property "Reference" "C160"
 			(at 313.69 228.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11332,7 +11312,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C161")
+					(reference "C160")
 					(unit 1)
 				)
 			)
@@ -11350,7 +11330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3376bb52-50a3-4701-8069-56614ba644e0")
-		(property "Reference" "C135"
+		(property "Reference" "C134"
 			(at 25.4 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11414,7 +11394,85 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C135")
+					(reference "C134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 309.88 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33f46ef0-a715-4c8d-bd72-3c2e411685d4")
+		(property "Reference" "#FLG020"
+			(at 309.88 224.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWRF"
+			(at 309.88 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 309.88 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f27875b2-d03c-4b6c-9d28-2ea75d657a05")
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
+					(reference "#FLG020")
 					(unit 1)
 				)
 			)
@@ -11432,7 +11490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35817574-682f-4153-94f6-72c265362b62")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0205"
 			(at 284.48 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11493,7 +11551,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0210")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -11511,7 +11569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35d0c113-7a3c-46cb-b790-80afa49d8ec3")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0212"
 			(at 173.99 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11571,7 +11629,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0217")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -11589,7 +11647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36fd682a-bd77-45c9-9ba9-7f87d02544ad")
-		(property "Reference" "C121"
+		(property "Reference" "C120"
 			(at 50.8 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11653,7 +11711,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C121")
+					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -11671,7 +11729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37c130f2-88c5-4d76-8240-d6c7bb919bfd")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0193"
 			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11731,7 +11789,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0198")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -11749,7 +11807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e124408-ddf6-4e0d-a782-c5594ea77541")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0213"
 			(at 186.69 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11809,7 +11867,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0218")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -11827,7 +11885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e44c614-cbe8-4f2c-bc25-691b2fc6882d")
-		(property "Reference" "C133"
+		(property "Reference" "C132"
 			(at 300.99 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11891,7 +11949,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C133")
+					(reference "C132")
 					(unit 1)
 				)
 			)
@@ -11909,7 +11967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40bd36b7-678c-4593-8b89-a4f6e9b8f1c4")
-		(property "Reference" "C127"
+		(property "Reference" "C126"
 			(at 190.5 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11973,7 +12031,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C127")
+					(reference "C126")
 					(unit 1)
 				)
 			)
@@ -11991,7 +12049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42481201-b214-4896-a0f8-2d6691b0ce81")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0194"
 			(at 161.29 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12051,7 +12109,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0199")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -12069,7 +12127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4298e76f-f822-4ab3-8ab8-2c9d8a027328")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0220"
 			(at 80.01 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12129,7 +12187,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0225")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -12147,7 +12205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44e67ff8-10c3-42bb-a2e2-428d4e6962cd")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0206"
 			(at 21.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12207,7 +12265,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0211")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -12225,7 +12283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "464c163a-0ad9-4f18-b17a-09f6e7d56c39")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR0229"
 			(at 297.18 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -12286,7 +12344,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0234")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -12304,7 +12362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a36daee-8f31-4688-a39a-3725cce499f3")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0207"
 			(at 34.29 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12364,7 +12422,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0212")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -12382,7 +12440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4edc121d-72e8-41be-a76d-9dd4a361d72b")
-		(property "Reference" "C156"
+		(property "Reference" "C155"
 			(at 313.69 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12446,7 +12504,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C156")
+					(reference "C155")
 					(unit 1)
 				)
 			)
@@ -12464,7 +12522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f15c02c-a13a-4ac9-b2e9-7d6125f6907f")
-		(property "Reference" "C139"
+		(property "Reference" "C138"
 			(at 127 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12528,7 +12586,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C139")
+					(reference "C138")
 					(unit 1)
 				)
 			)
@@ -12546,7 +12604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51a0e210-1579-46c3-9d90-0115bad0631d")
-		(property "Reference" "C112"
+		(property "Reference" "C111"
 			(at 237.49 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12568,7 +12626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 234.6452 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12610,7 +12668,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C112")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -12628,7 +12686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "556ce5a2-1c06-4713-8785-d2deb7b935cc")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0187"
 			(at 186.69 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -12688,7 +12746,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0192")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -12706,7 +12764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58842b4d-2181-452b-9801-be826ec66b9e")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR0185"
 			(at 208.28 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12766,7 +12824,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0190")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -12864,7 +12922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f670087-3ce0-4512-8bbf-e78d0aae3368")
-		(property "Reference" "C110"
+		(property "Reference" "C109"
 			(at 212.09 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12886,7 +12944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 209.2452 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12928,7 +12986,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C110")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -12946,7 +13004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6461e1aa-6fd4-4fed-a549-1ffdcaf0c3f3")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0191"
 			(at 46.99 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13006,7 +13064,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0196")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -13024,7 +13082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65dbc665-51de-4813-8535-f6b46e5cc66f")
-		(property "Reference" "C113"
+		(property "Reference" "C112"
 			(at 250.19 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13088,7 +13146,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C113")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -13106,7 +13164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "680cf099-de9d-40c3-b3f7-6384d377a21e")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0192"
 			(at 59.69 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13166,7 +13224,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0197")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -13184,7 +13242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683c37d0-bf33-4801-97da-6ef027db08ae")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0196"
 			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13244,7 +13302,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0201")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -13262,7 +13320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "705037b5-c1bf-4ac5-9265-987b1ac52da3")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0209"
 			(at 59.69 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13322,7 +13380,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0214")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -13340,7 +13398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "718ef5d2-014f-4263-9500-4a154d0ae739")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR0195"
 			(at 173.99 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13400,7 +13458,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0200")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -13418,7 +13476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "743d156b-20a6-411a-85f3-71dbc4c3f1cf")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0201"
 			(at 284.48 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13479,7 +13537,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0206")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -13497,7 +13555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74790cc0-53eb-408a-98d2-f1fe4641b83d")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0204"
 			(at 186.69 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13557,7 +13615,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0209")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -13575,7 +13633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d46a8f-9bdd-44b4-b9c6-46f3468d4e93")
-		(property "Reference" "C145"
+		(property "Reference" "C144"
 			(at 288.29 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13597,7 +13655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 285.4452 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13639,7 +13697,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C145")
+					(reference "C144")
 					(unit 1)
 				)
 			)
@@ -13737,7 +13795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78c75b77-99c2-44ce-a083-677a45280422")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0203"
 			(at 21.59 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13797,7 +13855,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0208")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -13815,7 +13873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79861036-8dcf-477a-b528-f786d7233397")
-		(property "Reference" "C123"
+		(property "Reference" "C122"
 			(at 127 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13879,7 +13937,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C123")
+					(reference "C122")
 					(unit 1)
 				)
 			)
@@ -13897,7 +13955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a260163-51f3-40f1-a539-72c90a5b4b70")
-		(property "Reference" "C141"
+		(property "Reference" "C140"
 			(at 165.1 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13961,7 +14019,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C141")
+					(reference "C140")
 					(unit 1)
 				)
 			)
@@ -13979,7 +14037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7af20345-6993-49b9-b7dc-1349992be31f")
-		(property "Reference" "#PWR0236"
+		(property "Reference" "#PWR0231"
 			(at 284.48 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -14040,7 +14098,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0236")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -14058,7 +14116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c4d92ec-53ce-43d3-9a91-ff71617aa2ba")
-		(property "Reference" "#PWR0235"
+		(property "Reference" "#PWR0230"
 			(at 259.08 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -14118,84 +14176,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0235")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 105.41 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7cf5951a-ce51-4d05-8de2-fb9c12805817")
-		(property "Reference" "#FLG020"
-			(at 105.41 126.365 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWRF"
-			(at 105.41 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 105.41 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb5dadee-86d2-466f-8a5e-c0fb5a62c554")
-		)
-		(instances
-			(project "mikrainix"
-				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#FLG020")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -14213,7 +14194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f46f724-22d0-4e8e-b6d3-33635ecfd798")
-		(property "Reference" "C125"
+		(property "Reference" "C124"
 			(at 165.1 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14277,7 +14258,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C125")
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -14295,7 +14276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8573ed5d-d6bc-4fe0-9c7c-594dfdb94d80")
-		(property "Reference" "C115"
+		(property "Reference" "C114"
 			(at 275.59 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14359,7 +14340,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C115")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -14377,7 +14358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9a4c67-4fc8-4b28-9fde-42ad1de80768")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0210"
 			(at 148.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -14437,7 +14418,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0215")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -14455,7 +14436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cbfc02e-6c05-4e49-926e-fb470a51ef4b")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0218"
 			(at 284.48 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -14516,7 +14497,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0223")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -14534,7 +14515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90184c95-f647-455f-8cfe-b47897bc7f65")
-		(property "Reference" "C116"
+		(property "Reference" "C115"
 			(at 288.29 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14598,7 +14579,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C116")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -14616,7 +14597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "920bd0c6-18e4-4411-b567-84168b88aea9")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0197"
 			(at 284.48 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14676,7 +14657,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0202")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -14694,7 +14675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99713a6e-8734-4f10-95b0-38536e64a173")
-		(property "Reference" "C142"
+		(property "Reference" "C141"
 			(at 177.8 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14758,7 +14739,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C142")
+					(reference "C141")
 					(unit 1)
 				)
 			)
@@ -14776,7 +14757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bac8d53-6c15-4de3-97f7-5b30bab532cb")
-		(property "Reference" "R82"
+		(property "Reference" "R81"
 			(at 138.43 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14840,7 +14821,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "R82")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -14858,7 +14839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d55d8d7-9dde-4189-ab50-86785dc1163c")
-		(property "Reference" "C147"
+		(property "Reference" "C146"
 			(at 313.69 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14922,7 +14903,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C147")
+					(reference "C146")
 					(unit 1)
 				)
 			)
@@ -14940,7 +14921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a18c1810-5367-4f17-93cb-b0b74a8602a1")
-		(property "Reference" "R81"
+		(property "Reference" "R80"
 			(at 138.43 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15004,7 +14985,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "R81")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -15022,7 +15003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1cb416a-968c-4de0-a0e3-00737d8a43f1")
-		(property "Reference" "C119"
+		(property "Reference" "C118"
 			(at 25.4 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15086,7 +15067,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C119")
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -15104,7 +15085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3278c30-063a-4d0c-9dea-d47003a1e981")
-		(property "Reference" "C124"
+		(property "Reference" "C123"
 			(at 152.4 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15168,7 +15149,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C124")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -15186,7 +15167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a35684af-08cc-481a-8dfd-875c8a9f28e9")
-		(property "Reference" "C149"
+		(property "Reference" "C148"
 			(at 300.99 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15250,7 +15231,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C149")
+					(reference "C148")
 					(unit 1)
 				)
 			)
@@ -15268,7 +15249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3b85a9a-d6a8-4fc2-afa9-bae0dc6e123e")
-		(property "Reference" "C120"
+		(property "Reference" "C119"
 			(at 38.1 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15332,7 +15313,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C120")
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -15350,7 +15331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aab5d007-0701-4a0c-84e9-72cf5d44fd7a")
-		(property "Reference" "C138"
+		(property "Reference" "C137"
 			(at 63.5 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15414,7 +15395,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C138")
+					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -15509,7 +15490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac9eeacf-57a8-4b0a-b34c-91c1a9f9ca5b")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR0227"
 			(at 284.48 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -15570,7 +15551,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0232")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -15588,7 +15569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b02b7362-c453-4d48-b297-91fd1b7ffc8c")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0214"
 			(at 284.48 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15648,7 +15629,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0219")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -15743,7 +15724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b69c74f1-46e9-4ade-afc8-faa3e76b4933")
-		(property "Reference" "C157"
+		(property "Reference" "C156"
 			(at 300.99 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15765,7 +15746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 298.1452 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -15807,7 +15788,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C157")
+					(reference "C156")
 					(unit 1)
 				)
 			)
@@ -15825,7 +15806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8be788a-91d1-4125-9f07-999e0a48c880")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0200"
 			(at 97.79 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15885,7 +15866,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0205")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -15903,7 +15884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd403a71-37a2-47d3-b0ee-6f50276d14b0")
-		(property "Reference" "C158"
+		(property "Reference" "C157"
 			(at 313.69 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15967,7 +15948,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C158")
+					(reference "C157")
 					(unit 1)
 				)
 			)
@@ -15985,7 +15966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2bbdcee-e545-4fc1-9bdb-70583b2f1df2")
-		(property "Reference" "C160"
+		(property "Reference" "C159"
 			(at 300.99 228.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16049,7 +16030,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C160")
+					(reference "C159")
 					(unit 1)
 				)
 			)
@@ -16067,7 +16048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c30e8c97-18cb-4828-81a0-0745eeb9298a")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0190"
 			(at 34.29 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16127,7 +16108,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0195")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -16145,7 +16126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c57e74c1-7f8f-489f-a8b6-92b3d509b617")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0222"
 			(at 284.48 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16206,7 +16187,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0227")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -16224,7 +16205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6a8c4e6-28a6-4f9c-bc42-e2d0ea19b074")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0211"
 			(at 161.29 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16284,7 +16265,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0216")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -16312,7 +16293,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM21PG121SN1D"
+		(property "Value" "120Ω/100MHz"
 			(at 271.8308 220.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16322,7 +16303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 271.78 227.838 90)
 			(hide yes)
 			(show_name no)
@@ -16346,6 +16327,17 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 271.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM21PG121SN1D"
+			(at 271.78 226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16382,7 +16374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd72a495-2a62-43d7-8a54-6cef195fbae7")
-		(property "Reference" "C130"
+		(property "Reference" "C129"
 			(at 300.99 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16446,7 +16438,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C130")
+					(reference "C129")
 					(unit 1)
 				)
 			)
@@ -16464,7 +16456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf11419d-44e7-46ed-b32e-517af49b6944")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0208"
 			(at 46.99 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16524,7 +16516,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0213")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -16542,7 +16534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d05037d6-3629-4ee6-a079-d5a06a3e760f")
-		(property "Reference" "C117"
+		(property "Reference" "C116"
 			(at 300.99 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16606,7 +16598,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C117")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -16623,7 +16615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6a4f838-3e01-4f6c-9276-293fceaf8631")
-		(property "Reference" "C144"
+		(property "Reference" "C143"
 			(at 76.2 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16687,7 +16679,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C144")
+					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -16705,7 +16697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d83f308e-3cc6-48ac-8e8d-7c95b8507cdc")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0224"
 			(at 284.48 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -16766,7 +16758,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0229")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -16784,7 +16776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8944c36-15ba-418a-8c3a-2de2302de1c3")
-		(property "Reference" "C155"
+		(property "Reference" "C154"
 			(at 300.99 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16848,7 +16840,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C155")
+					(reference "C154")
 					(unit 1)
 				)
 			)
@@ -16866,7 +16858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc5d11be-37b6-4fd4-8b74-a3c9b20f021e")
-		(property "Reference" "C152"
+		(property "Reference" "C151"
 			(at 300.99 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16930,7 +16922,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C152")
+					(reference "C151")
 					(unit 1)
 				)
 			)
@@ -16948,7 +16940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc7ae4f-c137-46da-a99a-bc56524a03be")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0223"
 			(at 284.48 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -17008,7 +17000,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0228")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -17026,7 +17018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e23242f0-b25a-40fd-9825-d11394a4c1a2")
-		(property "Reference" "C129"
+		(property "Reference" "C128"
 			(at 288.29 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17048,7 +17040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 285.4452 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17090,7 +17082,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C129")
+					(reference "C128")
 					(unit 1)
 				)
 			)
@@ -17108,7 +17100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e41593e9-220b-49d1-89c1-18f81109d5ea")
-		(property "Reference" "C131"
+		(property "Reference" "C130"
 			(at 313.69 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17172,7 +17164,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C131")
+					(reference "C130")
 					(unit 1)
 				)
 			)
@@ -17302,7 +17294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7215250-a380-4dd1-8aae-e3cfda6c01cb")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0198"
 			(at 72.39 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17362,7 +17354,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0203")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -17380,7 +17372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e78b82f4-6571-486f-baef-3437fccf7b60")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0219"
 			(at 284.48 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17440,7 +17432,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0224")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -17458,7 +17450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e909bf37-ffcf-419d-bd3f-51a3ebeefaec")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR0186"
 			(at 21.59 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -17518,7 +17510,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0191")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -17536,7 +17528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea4b4ccd-fe7c-4b2c-91d3-70974323b8a7")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0217"
 			(at 97.79 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -17596,7 +17588,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0222")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -17614,7 +17606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0d56da3-7cc5-4d70-930a-de8c044b5ba1")
-		(property "Reference" "C132"
+		(property "Reference" "C131"
 			(at 288.29 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17636,7 +17628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 285.4452 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17678,7 +17670,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C132")
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -17696,7 +17688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7c88c67-6dc3-4bc8-8248-bfc01bd2bdc9")
-		(property "Reference" "C150"
+		(property "Reference" "C149"
 			(at 313.69 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17760,7 +17752,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C150")
+					(reference "C149")
 					(unit 1)
 				)
 			)
@@ -17778,7 +17770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa800939-fd8c-4f8c-8a8f-1fe943704699")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0202"
 			(at 284.48 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17838,7 +17830,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0207")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -17856,7 +17848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb927985-6785-4ddd-93f6-0aafb6d52f26")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR0226"
 			(at 284.48 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17916,7 +17908,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0231")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -17934,7 +17926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd9f3ec1-285f-4932-a9ab-b501388eaecf")
-		(property "Reference" "C151"
+		(property "Reference" "C150"
 			(at 288.29 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17956,7 +17948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 285.4452 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -17998,7 +17990,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "C151")
+					(reference "C150")
 					(unit 1)
 				)
 			)
@@ -18016,7 +18008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fef1a27e-b6e4-47e4-a32b-ac7b33711019")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0188"
 			(at 208.28 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -18077,7 +18069,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/aa93e795-3aeb-4efd-8596-72694791a637"
-					(reference "#PWR0193")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)

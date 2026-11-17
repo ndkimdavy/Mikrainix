@@ -4429,8 +4429,8 @@
 		(uuid "a8d4d31a-9717-4283-957d-1b64e97fb48c")
 	)
 	(rectangle
-		(start 116.84 132.08)
-		(end 185.42 161.29)
+		(start 15.24 91.44)
+		(end 83.82 120.65)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -4441,8 +4441,8 @@
 		(uuid "ba586d40-c087-4cb8-9348-d3312b5a3336")
 	)
 	(rectangle
-		(start 15.24 91.44)
-		(end 48.26 142.24)
+		(start 15.24 124.46)
+		(end 48.26 175.26)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -4501,7 +4501,7 @@
 		(uuid "41af519b-8c55-476e-b196-225d0d819967")
 	)
 	(junction
-		(at 22.86 124.46)
+		(at 22.86 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c368ee1-9d61-40ee-bf6d-63acd37abae5")
@@ -4529,6 +4529,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a5e7819-f97b-4bbf-be10-b1042527ab52")
+	)
+	(junction
+		(at 207.01 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82593b43-4451-44d7-8fbc-8d352b50f5b3")
 	)
 	(junction
 		(at 207.01 93.98)
@@ -4573,12 +4579,6 @@
 		(uuid "e1b313cd-3cbe-456d-9f5d-6d44b3a837fe")
 	)
 	(junction
-		(at 207.01 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8c488e6-e7d9-4a6e-bf98-03eb1688740b")
-	)
-	(junction
 		(at 143.51 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4601,7 +4601,7 @@
 		(uuid "1b9489f7-57b5-40ed-9452-508296bfe348")
 	)
 	(no_connect
-		(at 181.61 151.13)
+		(at 80.01 110.49)
 		(uuid "38a9d92c-a069-418a-ae3b-07981300ccc7")
 	)
 	(no_connect
@@ -4609,7 +4609,7 @@
 		(uuid "3c750554-3618-4e89-af18-7ddd97c6fdf7")
 	)
 	(no_connect
-		(at 120.65 146.05)
+		(at 19.05 105.41)
 		(uuid "510025e7-d0f3-405c-89fb-cc41e2d617f7")
 	)
 	(no_connect
@@ -4637,7 +4637,7 @@
 		(uuid "6bcfac47-8953-4b98-b6df-a742de75602c")
 	)
 	(no_connect
-		(at 120.65 148.59)
+		(at 19.05 107.95)
 		(uuid "79acead9-bd10-486a-955d-1a1a3a3b1435")
 	)
 	(no_connect
@@ -4649,7 +4649,7 @@
 		(uuid "87dec48d-e3d0-48ea-a3e0-25645855557a")
 	)
 	(no_connect
-		(at 181.61 146.05)
+		(at 80.01 105.41)
 		(uuid "94832ef3-9ca8-46b7-87f4-538c0190b2eb")
 	)
 	(no_connect
@@ -4657,15 +4657,15 @@
 		(uuid "a8382bf4-8aea-42b9-a7ce-05d5397527ef")
 	)
 	(no_connect
-		(at 181.61 148.59)
+		(at 80.01 107.95)
 		(uuid "b0c62a66-e007-4cf7-b263-0bde8019d823")
 	)
 	(no_connect
-		(at 120.65 151.13)
+		(at 19.05 110.49)
 		(uuid "c8239c78-da58-4589-abdb-cbc9622d1e17")
 	)
 	(no_connect
-		(at 120.65 153.67)
+		(at 19.05 113.03)
 		(uuid "d261b030-3e48-403e-b1cb-38d9468411d3")
 	)
 	(no_connect
@@ -4684,7 +4684,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 124.46) (xy 35.56 127)
+			(xy 35.56 157.48) (xy 35.56 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4844,7 +4844,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 139.7) (xy 22.86 134.62)
+			(xy 22.86 172.72) (xy 22.86 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4974,7 +4974,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 124.46) (xy 35.56 124.46)
+			(xy 22.86 157.48) (xy 35.56 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5044,7 +5044,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 137.16) (xy 48.26 137.16)
+			(xy 35.56 170.18) (xy 48.26 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5114,7 +5114,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 124.46) (xy 22.86 127)
+			(xy 22.86 157.48) (xy 22.86 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5144,7 +5144,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 139.7) (xy 22.86 139.7)
+			(xy 48.26 172.72) (xy 22.86 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5274,7 +5274,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 134.62) (xy 35.56 137.16)
+			(xy 35.56 167.64) (xy 35.56 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5483,7 +5483,7 @@
 		(uuid "1142975b-f7ca-466c-a804-4fd079dba88a")
 	)
 	(label "CAM_SCL"
-		(at 48.26 137.16 180)
+		(at 48.26 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5533,7 +5533,7 @@
 		(uuid "4cf92bbf-086a-47ef-8a68-93de147fbd19")
 	)
 	(label "CAM_SDA"
-		(at 48.26 139.7 180)
+		(at 48.26 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5703,9 +5703,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x20_MountingPin"
+		(property "Value" "FPC"
 			(at 237.49 45.72 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5820,89 +5819,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 207.01 26.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "277e5353-1ff2-4422-ac5c-950e25ecc167")
-		(property "Reference" "D13"
-			(at 209.55 27.9401 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMLVT3V3"
-			(at 209.55 25.4001 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 207.01 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/smlvt3v3.pdf"
-			(at 207.01 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 207.01 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f95c6ed7-b0a3-4aca-9c43-f6408e500f2a")
-		)
-		(pin "2"
-			(uuid "08d20ac5-0354-47b4-a893-4258dd608496")
-		)
-		(instances
-			(project "mikrainix"
-				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 22.86 130.81 180)
+		(at 22.86 163.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5912,8 +5830,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "372098b9-b5b9-4699-abb5-3fab4a535b49")
-		(property "Reference" "R76"
-			(at 25.4 129.5399 0)
+		(property "Reference" "R75"
+			(at 25.4 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5924,7 +5842,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 25.4 132.0799 0)
+			(at 25.4 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5935,7 +5853,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 24.638 130.81 90)
+			(at 24.638 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5946,7 +5864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 130.81 0)
+			(at 22.86 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5957,7 +5875,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 22.86 130.81 0)
+			(at 22.86 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5976,7 +5894,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "R76")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -5984,7 +5902,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 35.56 102.87 0)
+		(at 35.56 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5993,8 +5911,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "473220fa-5f8b-4992-b18f-9d3dd65e4c58")
-		(property "Reference" "C107"
-			(at 39.37 101.5999 0)
+		(property "Reference" "C106"
+			(at 39.37 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6005,7 +5923,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 39.37 104.1399 0)
+			(at 39.37 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6016,7 +5934,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 36.5252 106.68 0)
+			(at 36.5252 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6027,7 +5945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 102.87 0)
+			(at 35.56 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,7 +5956,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 35.56 102.87 0)
+			(at 35.56 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6057,7 +5975,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "C107")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -6194,7 +6112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6434c732-ad22-4bae-a26b-ad4e4566923a")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0172"
 			(at 149.86 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6254,7 +6172,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0179")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -6262,7 +6180,7 @@
 	)
 	(symbol
 		(lib_id "mikrainix-RV1106G3:RV1106G3")
-		(at 151.13 133.35 0)
+		(at 49.53 92.71 0)
 		(unit 12)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6273,7 +6191,7 @@
 		(fields_autoplaced yes)
 		(uuid "6634eb71-4663-4db1-aea8-00bf2c2aa963")
 		(property "Reference" "U8"
-			(at 151.13 135.89 0)
+			(at 49.53 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6283,7 +6201,7 @@
 			)
 		)
 		(property "Value" "RV1106G3"
-			(at 151.13 138.43 0)
+			(at 49.53 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6293,7 +6211,7 @@
 			)
 		)
 		(property "Footprint" "mikrainix-RV1106G3:QFN35P1230X1230X90-129N"
-			(at 151.13 130.81 0)
+			(at 49.53 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6304,7 +6222,7 @@
 			)
 		)
 		(property "Datasheet" "https://rockchip.fr/RV1106%20datasheet%20V1.9.pdf"
-			(at 151.13 133.35 0)
+			(at 49.53 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6315,7 +6233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 133.35 0)
+			(at 24.13 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6733,7 +6651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7338a566-2f86-4764-98d0-20f68fa43679")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0171"
 			(at 207.01 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6793,7 +6711,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0177")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -6811,7 +6729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73eb8239-f744-434e-99be-dd5d21b0504d")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0169"
 			(at 207.01 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6871,7 +6789,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0174")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -6889,7 +6807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "780c3769-d25e-4afd-b29e-5d91357c77ea")
-		(property "Reference" "R75"
+		(property "Reference" "R74"
 			(at 156.21 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6951,7 +6869,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "R75")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -7430,7 +7348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "972508fc-016b-41de-9ee6-f10ffa243760")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0173"
 			(at 175.26 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7490,7 +7408,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0180")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -7498,7 +7416,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 130.81 180)
+		(at 35.56 163.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7508,8 +7426,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9745de1f-0199-4e3d-8141-e9b5b941a7b3")
-		(property "Reference" "R77"
-			(at 38.1 129.5399 0)
+		(property "Reference" "R76"
+			(at 38.1 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7520,7 +7438,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 38.1 132.0799 0)
+			(at 38.1 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7531,7 +7449,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 37.338 130.81 90)
+			(at 37.338 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,7 +7460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 130.81 0)
+			(at 35.56 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7553,7 +7471,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 35.56 130.81 0)
+			(at 35.56 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7572,7 +7490,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "R77")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -7590,7 +7508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97abe323-1cb7-4fc3-bd6b-b61821878576")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0170"
 			(at 207.01 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7650,7 +7568,99 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0175")
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 207.01 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99a31e8f-610d-4c4a-b218-2c9f63a88fef")
+		(property "Reference" "D13"
+			(at 209.55 27.9401 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 209.55 25.4001 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 207.01 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/smlvt3v3.pdf"
+			(at 207.01 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMLVT3V3"
+			(at 207.01 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f850f959-ad76-43bb-a545-879ea82013d3")
+		)
+		(pin "2"
+			(uuid "b22b9488-fa3d-4789-9547-d8c2eb80e531")
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7658,7 +7668,7 @@
 	)
 	(symbol
 		(lib_id "mikrainix-POWER_SYM:GND")
-		(at 35.56 106.68 0)
+		(at 35.56 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7668,8 +7678,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a84051e0-6834-4ed0-81d9-ce9a302b09fc")
-		(property "Reference" "#PWR0178"
-			(at 35.56 113.03 0)
+		(property "Reference" "#PWR0175"
+			(at 35.56 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7680,7 +7690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 111.76 0)
+			(at 35.56 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7690,7 +7700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 106.68 0)
+			(at 35.56 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7701,7 +7711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 106.68 0)
+			(at 35.56 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7712,7 +7722,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 35.56 106.68 0)
+			(at 35.56 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7728,7 +7738,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0178")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -7745,7 +7755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf872fb7-fb57-48c6-9b1a-32f5955cb2c1")
-		(property "Reference" "C106"
+		(property "Reference" "C105"
 			(at 198.12 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7809,7 +7819,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "C106")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -7817,7 +7827,7 @@
 	)
 	(symbol
 		(lib_id "mikrainix-POWER_SYM:VDD")
-		(at 35.56 99.06 0)
+		(at 35.56 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7827,8 +7837,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e127c20a-fd5e-4dc4-92fb-5f11878656a0")
-		(property "Reference" "#PWR0176"
-			(at 35.56 104.14 0)
+		(property "Reference" "#PWR0174"
+			(at 35.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,7 +7849,7 @@
 			)
 		)
 		(property "Value" "3V3/3A"
-			(at 35.56 95.25 0)
+			(at 35.56 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7849,7 +7859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 99.06 0)
+			(at 35.56 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,7 +7870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 99.06 0)
+			(at 35.56 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7871,7 +7881,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 35.56 99.06 0)
+			(at 35.56 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7887,7 +7897,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0176")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -8015,7 +8025,7 @@
 	)
 	(symbol
 		(lib_id "mikrainix-POWER_SYM:VDD")
-		(at 22.86 124.46 0)
+		(at 22.86 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8025,8 +8035,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f63a288d-f7ad-4537-9074-74ec528c7aa7")
-		(property "Reference" "#PWR0181"
-			(at 22.86 129.54 0)
+		(property "Reference" "#PWR0176"
+			(at 22.86 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,7 +8047,7 @@
 			)
 		)
 		(property "Value" "1V8/0A15"
-			(at 22.86 120.65 0)
+			(at 22.86 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8047,7 +8057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 124.46 0)
+			(at 22.86 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8058,7 +8068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 124.46 0)
+			(at 22.86 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8069,7 +8079,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 22.86 124.46 0)
+			(at 22.86 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,7 +8095,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/2463f957-0426-430a-966c-a5f215841251"
-					(reference "#PWR0181")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)

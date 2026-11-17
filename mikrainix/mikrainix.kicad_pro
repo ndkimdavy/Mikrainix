@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -206,7 +212,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +241,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -455,7 +468,7 @@
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
-      "isolated_pin_label": "warning",
+      "isolated_pin_label": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -516,6 +529,61 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "Net.0A15",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Net.0A35",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Net.1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": "AP.1A",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Net.3A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "AP.3A",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Net.GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -523,14 +591,55 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Net.3A",
+        "pattern": "5V*3A"
+      },
+      {
+        "netclass": "Net.3A",
+        "pattern": "3V*3A"
+      },
+      {
+        "netclass": "Net.3A",
+        "pattern": "2V5*3A"
+      },
+      {
+        "netclass": "Net.3A",
+        "pattern": "1V1*3A"
+      },
+      {
+        "netclass": "Net.3A",
+        "pattern": "0V9*3A"
+      },
+      {
+        "netclass": "Net.1A",
+        "pattern": "1V35*1A"
+      },
+      {
+        "netclass": "Net.1A",
+        "pattern": "0V9*1A"
+      },
+      {
+        "netclass": "Net.0A35",
+        "pattern": "3V3*0A35"
+      },
+      {
+        "netclass": "Net.0A15",
+        "pattern": "1V8*0A15"
+      },
+      {
+        "netclass": "Net.GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../schema/",
+      "plot": "../hwdesign/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -545,7 +654,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "../hwdesign/mikrainix.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -625,6 +734,54 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SOURCE_URL",
+          "name": "SOURCE_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "UNIT",
+          "name": "UNIT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET_URL",
+          "name": "DATASHEET_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -691,7 +848,7 @@
         "uuid": "19082ed6-8f17-4d62-ab42-418ea03b55ea"
       }
     ],
-    "used_designators": "#FLG1-27,#PWR1-279,BFLASH1,C1-213,CR1-6,D1-19,FB1-5,J1-6,L1-9,Q1-11,R1-117,SW1-9,TP1,TP\\-2P1-10,U1-19,Y1-5",
+    "used_designators": "#FLG1-27,#PWR1-279,BFLASH1,C1-213,CR1-6,D1-23,FB1-5,J1-9,L1-9,Q1-11,R1-117,SW1-9,TP1,TP\\-2P1-10,U1-19,Y1-5",
     "variants": []
   },
   "sheets": [
@@ -737,6 +894,75 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": false,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 1500000
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 3600000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 1500000
+          }
+        ],
+        "profile_name": "AP.3A",
+        "target_impedance": 0.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": false,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 400000
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 800000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 400000
+          }
+        ],
+        "profile_name": "AP.1A",
+        "target_impedance": 0.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }
