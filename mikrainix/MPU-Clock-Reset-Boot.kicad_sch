@@ -5,7 +5,7 @@
 	(uuid "841b57b6-27e0-467d-afcf-92177060fce9")
 	(paper "A3")
 	(title_block
-		(title "MPU–Clock, Reset, Boot & GPIO")
+		(title "MPU–Clock, Reset & Boot")
 		(date "2026-11-16")
 		(rev "v0.1")
 		(comment 1 "Project repository: github.com/ndkimdavy/Mikrainix")
@@ -4051,8 +4051,20 @@
 		)
 	)
 	(rectangle
-		(start 127 15.24)
-		(end 270.51 161.29)
+		(start 115.57 53.34)
+		(end 208.28 97.79)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3ab4882c-34a8-4e5f-9c28-2dea2375af86")
+	)
+	(rectangle
+		(start 115.57 101.6)
+		(end 236.22 143.51)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -4063,8 +4075,8 @@
 		(uuid "6b4dd963-32c3-4c41-b2d6-825a2ee70836")
 	)
 	(rectangle
-		(start 67.31 52.07)
-		(end 91.44 63.5)
+		(start 67.31 15.24)
+		(end 91.44 26.67)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -4087,8 +4099,8 @@
 		(uuid "92eac39c-04ac-423d-a90e-07e1e090489f")
 	)
 	(rectangle
-		(start 67.31 15.24)
-		(end 123.19 48.26)
+		(start 115.57 15.24)
+		(end 176.53 49.53)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -4099,8 +4111,8 @@
 		(uuid "a481d8ad-da5d-49cc-91e5-a7f62a2299b7")
 	)
 	(rectangle
-		(start 67.31 67.31)
-		(end 91.44 76.2)
+		(start 67.31 30.48)
+		(end 91.44 39.37)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -4111,8 +4123,20 @@
 		(uuid "cdddd4d5-9d9a-4977-936e-32c6e2a778f8")
 	)
 	(rectangle
-		(start 67.31 80.01)
-		(end 111.76 115.57)
+		(start 115.57 147.32)
+		(end 254 191.77)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e45a8f42-db91-4507-bd51-48f9aadfeb38")
+	)
+	(rectangle
+		(start 67.31 43.18)
+		(end 111.76 78.74)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -4124,7 +4148,7 @@
 	)
 	(text "CONV. USB-UART"
 		(exclude_from_sim no)
-		(at 101.6 114.3 0)
+		(at 102.87 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4134,7 +4158,7 @@
 	)
 	(text "COM. USB"
 		(exclude_from_sim no)
-		(at 85.09 62.23 0)
+		(at 86.36 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4144,7 +4168,7 @@
 	)
 	(text "CTRL. ESP32"
 		(exclude_from_sim no)
-		(at 83.82 74.93 0)
+		(at 85.09 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4159,6 +4183,12 @@
 		(uuid "03a1bb42-6188-4ab2-a626-092be93c2817")
 	)
 	(junction
+		(at 50.8 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d9e47dc-8b49-4195-a266-993d72cfb3a6")
+	)
+	(junction
 		(at 50.8 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4171,7 +4201,7 @@
 		(uuid "3a2d39da-e87a-45b0-b269-c5f4eb7cf137")
 	)
 	(junction
-		(at 80.01 87.63)
+		(at 80.01 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79734533-f58b-45cc-8d17-8ce3725a48d9")
@@ -4187,12 +4217,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b7db3c5-2529-4d4a-beb6-6ef446413e7b")
-	)
-	(junction
-		(at 50.8 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bb48184-52b0-4920-898a-7bb5aeb19efe")
 	)
 	(junction
 		(at 50.8 99.06)
@@ -4213,103 +4237,103 @@
 		(uuid "e83da16e-c545-4842-9fe0-adcaf570d6dd")
 	)
 	(no_connect
-		(at 261.62 138.43)
+		(at 199.39 74.93)
 		(uuid "037bb33d-ee2a-42ce-960e-521cc8175830")
 	)
 	(no_connect
-		(at 261.62 140.97)
+		(at 199.39 77.47)
 		(uuid "21c1d67d-e073-42cd-9851-54a9d639acaf")
 	)
 	(no_connect
-		(at 261.62 34.29)
+		(at 224.79 120.65)
 		(uuid "231b3938-b559-4a9b-bb21-c6e7cbb044fe")
 	)
 	(no_connect
-		(at 261.62 143.51)
+		(at 199.39 80.01)
 		(uuid "316ecb92-a17d-4743-903d-b30be6ccbcee")
 	)
 	(no_connect
-		(at 261.62 97.79)
+		(at 250.19 179.07)
 		(uuid "33690ba6-2d80-4d86-a853-189757671a43")
 	)
 	(no_connect
-		(at 261.62 87.63)
+		(at 250.19 168.91)
 		(uuid "3e964b64-3404-4eee-854a-161b47abbc23")
 	)
 	(no_connect
-		(at 261.62 85.09)
+		(at 250.19 166.37)
 		(uuid "4de53ab9-2b6c-461c-8ac7-e3a420e751b8")
 	)
 	(no_connect
-		(at 261.62 135.89)
+		(at 199.39 72.39)
 		(uuid "52b25369-fde2-47ff-85f4-c1f44c08ccdf")
 	)
 	(no_connect
-		(at 261.62 82.55)
+		(at 250.19 163.83)
 		(uuid "557c1663-4e17-4e71-8900-e7aa678e8da1")
 	)
 	(no_connect
-		(at 261.62 80.01)
+		(at 250.19 161.29)
 		(uuid "671d6002-2955-4224-b468-88b8e47c28db")
 	)
 	(no_connect
-		(at 261.62 90.17)
+		(at 250.19 171.45)
 		(uuid "74348fbe-4159-40f0-9763-f7bf9389618e")
 	)
 	(no_connect
-		(at 261.62 92.71)
+		(at 250.19 173.99)
 		(uuid "7752293a-51ef-4a12-a9ad-63902ab7288d")
 	)
 	(no_connect
-		(at 261.62 100.33)
+		(at 250.19 181.61)
 		(uuid "945d3c19-14fb-4612-9fad-a1bf69364ae2")
 	)
 	(no_connect
-		(at 100.33 100.33)
+		(at 100.33 63.5)
 		(uuid "9b7c433b-aa4a-44d8-b25e-43424b3c6522")
 	)
 	(no_connect
-		(at 261.62 102.87)
+		(at 250.19 184.15)
 		(uuid "acc4ccec-78f8-4453-8d1b-121f5dc980d6")
 	)
 	(no_connect
-		(at 261.62 44.45)
+		(at 224.79 130.81)
 		(uuid "b0bc8cf5-e95a-441b-9a9e-efc661037645")
 	)
 	(no_connect
-		(at 261.62 146.05)
+		(at 199.39 82.55)
 		(uuid "c686763a-a8c9-4dcd-bd11-e5413475a771")
 	)
 	(no_connect
-		(at 261.62 130.81)
+		(at 199.39 67.31)
 		(uuid "cb40ed4f-4c4b-4a98-b152-78d5688cc1e7")
 	)
 	(no_connect
-		(at 261.62 36.83)
+		(at 224.79 123.19)
 		(uuid "d43dbc9a-85cc-47b5-978f-e71e379707aa")
 	)
 	(no_connect
-		(at 261.62 151.13)
+		(at 199.39 87.63)
 		(uuid "d54c0c13-b58c-49ff-a743-6489cf5ebded")
 	)
 	(no_connect
-		(at 261.62 39.37)
+		(at 224.79 125.73)
 		(uuid "df75834f-993b-485c-a9ee-cba60877b3cf")
 	)
 	(no_connect
-		(at 261.62 133.35)
+		(at 199.39 69.85)
 		(uuid "e3c573a6-340a-4a59-b8fc-b250d973a54d")
 	)
 	(no_connect
-		(at 261.62 41.91)
+		(at 224.79 128.27)
 		(uuid "e4ee85a8-1ab8-40fd-b9eb-0492dd4fd874")
 	)
 	(no_connect
-		(at 261.62 95.25)
+		(at 250.19 176.53)
 		(uuid "f2874e52-9b01-4847-9da8-98279af78106")
 	)
 	(no_connect
-		(at 261.62 31.75)
+		(at 224.79 118.11)
 		(uuid "fc915bbc-3d58-4165-9881-e9543fe85e1c")
 	)
 	(wire
@@ -4344,17 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 29.21) (xy 123.19 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "145ec46b-709f-4388-a2f4-06faa14d49e0")
-	)
-	(wire
-		(pts
-			(xy 261.62 49.53) (xy 270.51 49.53)
+			(xy 224.79 135.89) (xy 233.68 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4374,7 +4388,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 58.42) (xy 77.47 58.42)
+			(xy 67.31 21.59) (xy 77.47 21.59)
 		)
 		(stroke
 			(width 0)
@@ -4394,16 +4408,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 29.21) (xy 77.47 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32416583-dd07-4435-8d1c-3e846f16dc9a")
-	)
-	(wire
-		(pts
 			(xy 50.8 86.36) (xy 63.5 86.36)
 		)
 		(stroke
@@ -4414,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 55.88) (xy 77.47 55.88)
+			(xy 67.31 19.05) (xy 77.47 19.05)
 		)
 		(stroke
 			(width 0)
@@ -4424,13 +4428,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 87.63) (xy 80.01 92.71)
+			(xy 80.01 50.8) (xy 80.01 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b9befd6-0aff-48fa-ac10-0864c70ec8b0")
+	)
+	(wire
+		(pts
+			(xy 146.05 41.91) (xy 146.05 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3baa80f0-200d-4927-937d-9af7b82b2d30")
 	)
 	(wire
 		(pts
@@ -4454,7 +4468,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 95.25) (xy 109.22 95.25)
+			(xy 100.33 58.42) (xy 109.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4494,7 +4508,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 71.12) (xy 76.2 71.12)
+			(xy 199.39 90.17) (xy 205.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493d6b15-d830-43e1-b64c-d6792a9cfb7c")
+	)
+	(wire
+		(pts
+			(xy 67.31 34.29) (xy 76.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4514,7 +4538,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 100.33) (xy 80.01 100.33)
+			(xy 163.83 29.21) (xy 173.99 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643011d3-b7b5-40cb-a85d-95b84d51c3be")
+	)
+	(wire
+		(pts
+			(xy 69.85 63.5) (xy 80.01 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4554,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 87.63) (xy 90.17 87.63)
+			(xy 80.01 50.8) (xy 90.17 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4584,7 +4618,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 46.99) (xy 270.51 46.99)
+			(xy 224.79 133.35) (xy 233.68 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4624,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 92.71) (xy 109.22 92.71)
+			(xy 100.33 55.88) (xy 109.22 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4634,13 +4668,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 29.21) (xy 270.51 29.21)
+			(xy 118.11 29.21) (xy 128.27 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96bc4df4-214c-4c98-9c14-e1832dd2671c")
+		(uuid "94f5e267-86d4-441a-a6a0-2ca06de6d54b")
 	)
 	(wire
 		(pts
@@ -4694,7 +4728,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 31.75) (xy 123.19 31.75)
+			(xy 224.79 115.57) (xy 233.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc61e123-036e-4c70-9384-a176f6d36e24")
+	)
+	(wire
+		(pts
+			(xy 163.83 31.75) (xy 173.99 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4704,23 +4748,23 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 153.67) (xy 270.51 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c89a3c5e-0c6d-49c5-9b4b-a460affe34de")
-	)
-	(wire
-		(pts
-			(xy 67.31 31.75) (xy 77.47 31.75)
+			(xy 118.11 31.75) (xy 128.27 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cbf48ad0-488d-4573-8b50-9a3d6cb3aee4")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde16280-6bd9-4e23-bed4-2c99e53b2375")
 	)
 	(wire
 		(pts
@@ -4734,33 +4778,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 41.91) (xy 95.25 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5228b79-f6db-4fc5-ba22-d5415a6918a7")
-	)
-	(wire
-		(pts
-			(xy 69.85 97.79) (xy 80.01 97.79)
+			(xy 69.85 60.96) (xy 80.01 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d64633bf-10b6-462c-a03e-13af008ab93d")
-	)
-	(wire
-		(pts
-			(xy 50.8 60.96) (xy 63.5 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd22c718-3106-4ed1-921c-f6d30b453ec3")
 	)
 	(wire
 		(pts
@@ -4783,7 +4807,7 @@
 		(uuid "fd5c46fa-2af6-4b08-b6dc-3b7dc487c7b1")
 	)
 	(label "OSC_XOUT"
-		(at 123.19 29.21 180)
+		(at 173.99 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4793,7 +4817,7 @@
 		(uuid "1f5c70ca-1f7d-46ec-a08b-e46746d072e1")
 	)
 	(label "MPU1_D-"
-		(at 69.85 100.33 0)
+		(at 69.85 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4803,7 +4827,7 @@
 		(uuid "253dab25-2e65-450b-9699-0a34d71b100f")
 	)
 	(label "MPU1_D+"
-		(at 67.31 55.88 0)
+		(at 67.31 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4813,7 +4837,7 @@
 		(uuid "384b75e7-352e-4992-bf34-29e534b8bbd8")
 	)
 	(label "~{POR}"
-		(at 95.25 48.26 90)
+		(at 146.05 46.99 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4823,7 +4847,7 @@
 		(uuid "38d63d4a-cc8f-45d7-946b-356be4167860")
 	)
 	(label "~{BOOT}"
-		(at 270.51 153.67 180)
+		(at 205.74 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4833,7 +4857,7 @@
 		(uuid "431bb177-5328-4ad8-b06f-140734be3d33")
 	)
 	(label "MPU_RX"
-		(at 270.51 49.53 180)
+		(at 233.68 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4853,7 +4877,7 @@
 		(uuid "75a9fca1-484d-474b-a91f-bac0c19693ba")
 	)
 	(label "ESP_~{EN}"
-		(at 67.31 71.12 0)
+		(at 67.31 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4863,7 +4887,7 @@
 		(uuid "8356c2b2-0a0d-4ebd-93c7-111054db687e")
 	)
 	(label "ESP_~{EN}"
-		(at 270.51 29.21 180)
+		(at 233.68 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4873,7 +4897,7 @@
 		(uuid "8afee3a9-6731-4913-9eb7-6854eaaf7851")
 	)
 	(label "MPU_TX"
-		(at 109.22 95.25 180)
+		(at 109.22 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4893,7 +4917,7 @@
 		(uuid "92ee4470-94a5-4c55-ab76-ad121ec65c6d")
 	)
 	(label "MPU_TX"
-		(at 270.51 46.99 180)
+		(at 233.68 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4913,7 +4937,7 @@
 		(uuid "9ed9ee70-6d58-46ca-824f-21e2b258c90e")
 	)
 	(label "MPU1_D-"
-		(at 67.31 58.42 0)
+		(at 67.31 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4933,7 +4957,7 @@
 		(uuid "a2e13b33-e52d-4eab-aecb-8a7b07e38caf")
 	)
 	(label "RTC_XOUT"
-		(at 67.31 29.21 0)
+		(at 118.11 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4953,7 +4977,7 @@
 		(uuid "af6a809c-1cc1-41ad-8e9c-7e49dfd8562a")
 	)
 	(label "RTC_XIN"
-		(at 67.31 31.75 0)
+		(at 118.11 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4963,7 +4987,7 @@
 		(uuid "b115e13a-bd41-4213-8ba1-604a484aa9a1")
 	)
 	(label "MPU1_D+"
-		(at 69.85 97.79 0)
+		(at 69.85 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4973,7 +4997,7 @@
 		(uuid "bc7b16f7-acf5-4ee1-82bd-bf80765a28d7")
 	)
 	(label "OSC_XIN"
-		(at 123.19 31.75 180)
+		(at 173.99 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4993,7 +5017,7 @@
 		(uuid "d06ffe5e-8a29-48e3-9bcd-d2ca91ef7732")
 	)
 	(label "MPU_RX"
-		(at 109.22 92.71 180)
+		(at 109.22 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5004,7 +5028,7 @@
 	)
 	(hierarchical_label "ESP_~{EN}"
 		(shape output)
-		(at 76.2 71.12 0)
+		(at 76.2 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5015,7 +5039,7 @@
 	)
 	(hierarchical_label "MPU1_D-"
 		(shape passive)
-		(at 77.47 58.42 0)
+		(at 77.47 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5026,7 +5050,7 @@
 	)
 	(hierarchical_label "MPU1_D+"
 		(shape passive)
-		(at 77.47 55.88 0)
+		(at 77.47 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5118,8 +5142,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mikrainix-POWER_SYM:GND")
-		(at 90.17 105.41 0)
+		(lib_id "Device:C")
+		(at 50.8 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5127,31 +5151,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aefbd0e-31a1-4dcd-ae80-3cbafa762c67")
-		(property "Reference" "#PWR0141"
-			(at 90.17 111.76 0)
-			(hide yes)
+		(uuid "10e72aaa-aff5-48cd-903d-03771ed9e613")
+		(property "Reference" "C96"
+			(at 54.61 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 90.17 110.49 0)
+		(property "Value" "18p"
+			(at 54.61 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 90.17 105.41 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 51.7652 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5162,7 +5186,99 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 105.41 0)
+			(at 50.8 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM1555C1H180JA01D"
+			(at 50.8 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2960cd14-8a5d-4f62-b3a2-b543096e88ca")
+		)
+		(pin "2"
+			(uuid "59e569ff-da9c-4f5f-a181-4c5cfef7475c")
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/a833726d-e6a4-4dfb-afe7-f82d945434d0"
+					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mikrainix-POWER_SYM:GND")
+		(at 90.17 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aefbd0e-31a1-4dcd-ae80-3cbafa762c67")
+		(property "Reference" "#PWR0141"
+			(at 90.17 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5173,7 +5289,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 90.17 105.41 0)
+			(at 90.17 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5275,87 +5391,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 50.8 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "405a8b36-a360-477e-a1ba-60c78ecc1ba4")
-		(property "Reference" "C96"
-			(at 54.61 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12.5p"
-			(at 54.61 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 51.7652 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0eeb94eb-e3fe-4724-b249-45dfed42098e")
-		)
-		(pin "2"
-			(uuid "cf362fe0-1cc2-4249-9d52-296f28920d84")
-		)
-		(instances
-			(project "mikrainix"
-				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/a833726d-e6a4-4dfb-afe7-f82d945434d0"
-					(reference "C96")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 38.1 99.06 0)
 		(unit 1)
@@ -5387,7 +5422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 38.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5398,7 +5433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/Resonators/abm3b.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6536/ABM8_Datasheet.pdf"
 			(at 38.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5409,7 +5444,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" ""
 			(at 38.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5435,6 +5470,17 @@
 			(at 38.1 114.3 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ABM8-24.000MHZ-12-B1U-T"
+			(at 38.1 99.06 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -5596,7 +5642,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 25.4 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM1555C1H180JA01D"
 			(at 25.4 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5703,7 +5760,7 @@
 	)
 	(symbol
 		(lib_id "mikrainix-RV1106G3:RV1106G3")
-		(at 218.44 118.11 0)
+		(at 156.21 54.61 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5714,7 +5771,7 @@
 		(fields_autoplaced yes)
 		(uuid "6606fe2b-b05f-405b-a1f2-b5fa21df7c9a")
 		(property "Reference" "U8"
-			(at 218.44 120.65 0)
+			(at 156.21 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5724,7 +5781,7 @@
 			)
 		)
 		(property "Value" "RV1106G3"
-			(at 218.44 123.19 0)
+			(at 156.21 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5734,7 +5791,7 @@
 			)
 		)
 		(property "Footprint" "mikrainix-RV1106G3:QFN35P1230X1230X90-129N"
-			(at 218.44 115.57 0)
+			(at 156.21 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,7 +5802,7 @@
 			)
 		)
 		(property "Datasheet" "https://rockchip.fr/RV1106%20datasheet%20V1.9.pdf"
-			(at 218.44 118.11 0)
+			(at 156.21 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5756,7 +5813,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 118.11 0)
+			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6335,7 +6392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b29632c-a0d1-4c5b-95e1-c5c1b6bde0dc")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0139"
 			(at 25.4 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6395,7 +6452,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/a833726d-e6a4-4dfb-afe7-f82d945434d0"
-					(reference "#PWR0138")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -6403,7 +6460,7 @@
 	)
 	(symbol
 		(lib_id "mikrainix-RV1106G3:RV1106G3")
-		(at 205.74 16.51 0)
+		(at 168.91 102.87 0)
 		(unit 6)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6414,7 +6471,7 @@
 		(fields_autoplaced yes)
 		(uuid "83954d5f-65db-4476-a6c8-d91fb29f441e")
 		(property "Reference" "U8"
-			(at 205.74 19.05 0)
+			(at 168.91 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6424,7 +6481,7 @@
 			)
 		)
 		(property "Value" "RV1106G3"
-			(at 205.74 21.59 0)
+			(at 168.91 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6434,7 +6491,7 @@
 			)
 		)
 		(property "Footprint" "mikrainix-RV1106G3:QFN35P1230X1230X90-129N"
-			(at 205.74 13.97 0)
+			(at 168.91 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6445,7 +6502,7 @@
 			)
 		)
 		(property "Datasheet" "https://rockchip.fr/RV1106%20datasheet%20V1.9.pdf"
-			(at 205.74 16.51 0)
+			(at 168.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6456,7 +6513,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 16.51 0)
+			(at 143.51 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7021,87 +7078,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 50.8 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "94be4687-af71-4cbf-b289-d261062511f3")
-		(property "Reference" "C98"
-			(at 54.61 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18p"
-			(at 54.61 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 51.7652 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "557c86c3-3e08-4385-b541-3b0dedf964c6")
-		)
-		(pin "2"
-			(uuid "261168a1-3f67-4aab-b4fe-078860b0de9a")
-		)
-		(instances
-			(project "mikrainix"
-				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/a833726d-e6a4-4dfb-afe7-f82d945434d0"
-					(reference "C98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mikrainix-POWER_SYM:VDD")
 		(at 38.1 22.86 0)
 		(unit 1)
@@ -7181,7 +7157,7 @@
 	)
 	(symbol
 		(lib_id "mikrainix-RV1106G3:RV1106G3")
-		(at 193.04 67.31 0)
+		(at 181.61 148.59 0)
 		(unit 7)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7192,7 +7168,7 @@
 		(fields_autoplaced yes)
 		(uuid "97fe18ff-8ef5-418a-8d77-4597996b7217")
 		(property "Reference" "U8"
-			(at 193.04 69.85 0)
+			(at 181.61 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7202,7 +7178,7 @@
 			)
 		)
 		(property "Value" "RV1106G3"
-			(at 193.04 72.39 0)
+			(at 181.61 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7212,7 +7188,7 @@
 			)
 		)
 		(property "Footprint" "mikrainix-RV1106G3:QFN35P1230X1230X90-129N"
-			(at 193.04 64.77 0)
+			(at 181.61 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7223,7 +7199,7 @@
 			)
 		)
 		(property "Datasheet" "https://rockchip.fr/RV1106%20datasheet%20V1.9.pdf"
-			(at 193.04 67.31 0)
+			(at 181.61 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7234,7 +7210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 67.31 0)
+			(at 156.21 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7881,6 +7857,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 50.8 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a326ee45-93e4-447d-8bf0-4b2e784e1ae0")
+		(property "Reference" "C98"
+			(at 54.61 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18p"
+			(at 54.61 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 51.7652 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM1555C1H180JA01D"
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e85efcf-aa61-4b84-9b29-0bcb1171eadc")
+		)
+		(pin "2"
+			(uuid "d5f11644-35fc-4516-a3c5-33179a9046ca")
+		)
+		(instances
+			(project "mikrainix"
+				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/a833726d-e6a4-4dfb-afe7-f82d945434d0"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mikrainix-POWER_SYM:GND")
 		(at 38.1 106.68 0)
 		(unit 1)
@@ -8042,7 +8110,7 @@
 	)
 	(symbol
 		(lib_id "mikrainix-POWER_SYM:VDD")
-		(at 80.01 87.63 0)
+		(at 80.01 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8052,8 +8120,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4212e3d-9681-457f-af30-6580c224450a")
-		(property "Reference" "#PWR0140"
-			(at 80.01 92.71 0)
+		(property "Reference" "#PWR0138"
+			(at 80.01 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,7 +8132,7 @@
 			)
 		)
 		(property "Value" "3V3/3A"
-			(at 80.01 83.82 0)
+			(at 80.01 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8074,7 +8142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 87.63 0)
+			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,7 +8153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 87.63 0)
+			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8096,7 +8164,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 80.01 87.63 0)
+			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8112,7 +8180,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/a833726d-e6a4-4dfb-afe7-f82d945434d0"
-					(reference "#PWR0140")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -8249,7 +8317,18 @@
 				)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" ""
+			(at 38.1 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FC-135 32.7680KA-A3"
 			(at 38.1 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8367,7 +8446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6966d9d-023d-4af9-9749-3840efcb4a2c")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0140"
 			(at 50.8 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8427,7 +8506,7 @@
 		(instances
 			(project "mikrainix"
 				(path "/19082ed6-8f17-4d62-ab42-418ea03b55ea/a833726d-e6a4-4dfb-afe7-f82d945434d0"
-					(reference "#PWR0139")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -8435,7 +8514,7 @@
 	)
 	(symbol
 		(lib_id "mikrainix-RV1106G3:RV1106G3")
-		(at 95.25 16.51 0)
+		(at 146.05 16.51 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8446,7 +8525,7 @@
 		(fields_autoplaced yes)
 		(uuid "cce1467a-df52-477e-91c0-0833b1f8b885")
 		(property "Reference" "U8"
-			(at 95.25 19.05 0)
+			(at 146.05 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8456,7 +8535,7 @@
 			)
 		)
 		(property "Value" "RV1106G3"
-			(at 95.25 21.59 0)
+			(at 146.05 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8466,7 +8545,7 @@
 			)
 		)
 		(property "Footprint" "mikrainix-RV1106G3:QFN35P1230X1230X90-129N"
-			(at 95.25 13.97 0)
+			(at 146.05 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8477,7 +8556,7 @@
 			)
 		)
 		(property "Datasheet" "https://rockchip.fr/RV1106%20datasheet%20V1.9.pdf"
-			(at 95.25 16.51 0)
+			(at 146.05 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8488,7 +8567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 16.51 0)
+			(at 120.65 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9137,7 +9216,7 @@
 	)
 	(symbol
 		(lib_id "Interface_USB:CH340N")
-		(at 90.17 95.25 0)
+		(at 90.17 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9148,7 +9227,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8137e41-8044-4e06-90c5-7a2e654a24b3")
 		(property "Reference" "U9"
-			(at 92.3133 85.09 0)
+			(at 92.3133 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9159,7 +9238,7 @@
 			)
 		)
 		(property "Value" "CH340N"
-			(at 92.3133 87.63 0)
+			(at 92.3133 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9170,7 +9249,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 86.36 76.2 0)
+			(at 86.36 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9181,7 +9260,7 @@
 			)
 		)
 		(property "Datasheet" "https://aitendo3.sakura.ne.jp/aitendo_data/product_img/ic/inteface/CH340N/ch340n.pdf"
-			(at 87.63 90.17 0)
+			(at 87.63 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9192,7 +9271,7 @@
 			)
 		)
 		(property "Description" "USB serial converter, 2Mbps, UART, JEITA SOIC-8 (SOP-8)"
-			(at 90.17 95.25 0)
+			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9495,7 +9574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12.5p"
+		(property "Value" "18p"
 			(at 29.21 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9528,7 +9607,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 25.4 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM1555C1H180JA01D"
 			(at 25.4 64.77 0)
 			(hide yes)
 			(show_name no)

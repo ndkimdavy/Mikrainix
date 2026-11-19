@@ -7512,7 +7512,7 @@
 	)
 	(text "CONV. USB-UART"
 		(exclude_from_sim no)
-		(at 293.37 184.15 0)
+		(at 294.64 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7522,7 +7522,7 @@
 	)
 	(text "COM. SPI"
 		(exclude_from_sim no)
-		(at 275.59 144.78 0)
+		(at 276.86 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7532,7 +7532,7 @@
 	)
 	(text "TAG-CONNECT"
 		(exclude_from_sim no)
-		(at 303.53 58.42 0)
+		(at 304.8 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7542,7 +7542,7 @@
 	)
 	(text "COM. USB"
 		(exclude_from_sim no)
-		(at 275.59 124.46 0)
+		(at 276.86 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
